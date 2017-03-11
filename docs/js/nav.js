@@ -37,4 +37,10 @@
     }
   };
 
+  body.ontouchstart = function (event) {
+    if (-1 !== button.className.indexOf('active') && !nav.contains(event.target)) {
+      button.onclick();
+    }
+  };
+
 })();
