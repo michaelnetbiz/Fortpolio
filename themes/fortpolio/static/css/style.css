@@ -7,6 +7,10 @@
   src: url(http://michaelnet.biz/fonts/gothams/Gotham-Medium.otf) format('opentype');
 }
 @font-face {
+  font-family: "Gotham Bold";
+  src: url(http://michaelnet.biz/fonts/gothams/Gotham-Bold.otf) format('opentype');
+}
+@font-face {
   font-family: "PT Serif";
   src: url(http://michaelnet.biz/fonts/ptserif/pt-serif-v8-latin-regular.woff) format('woff');
 }
@@ -114,9 +118,14 @@ header p {
 header span {
   font-size: 1.5em;
   font-family: 'Gotham Light', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   margin: 0.67em 0;
   float: left;
+}
+
+/* line 13, ../../sass/elements/_header.scss */
+header span a {
+  color: #554AAA;
 }
 
 /* line 1, ../../sass/elements/_headings.scss */
@@ -260,33 +269,32 @@ pre {
 .about section {
   font-family: 'PT Serif', Georgia, sans-serif;
   font-weight: 300;
-  text-align: center;
 }
 
-/* line 13, ../../sass/components/_about.scss */
+/* line 12, ../../sass/components/_about.scss */
 .about section p {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 18, ../../sass/components/_about.scss */
+/* line 17, ../../sass/components/_about.scss */
 .about section p a {
   color: #554AAA;
 }
 
-/* line 22, ../../sass/components/_about.scss */
+/* line 21, ../../sass/components/_about.scss */
 .about section ul {
   padding-left: 0;
   text-align: left;
 }
 
-/* line 27, ../../sass/components/_about.scss */
+/* line 26, ../../sass/components/_about.scss */
 .about section ul li {
   display: list-item;
 }
 
 @media screen and (min-width: 49.75em) {
-  /* line 32, ../../sass/components/_about.scss */
+  /* line 31, ../../sass/components/_about.scss */
   .about {
     width: 80%;
     margin: auto;
@@ -456,14 +464,14 @@ pre {
 
 /* line 1, ../../sass/alterations/_selection.scss */
 ::-moz-selection {
-  background: #0f0d1e;
+  background: #554AAA;
   color: #ffffff;
   text-shadow: none;
 }
 
 /* line 7, ../../sass/alterations/_selection.scss */
 ::selection {
-  background: #0f0d1e;
+  background: #554AAA;
   color: #ffffff;
   text-shadow: none;
 }
