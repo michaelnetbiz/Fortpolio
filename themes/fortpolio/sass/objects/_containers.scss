@@ -1,0 +1,22 @@
+.header-container {
+}
+
+.main-container {
+
+}
+
+.footer-container {
+  //border-top: .5em solid $purple;
+}
+
+.header-container {
+  //background-color: $purple;
+  //color: $white;
+  //margin-bottom: 1em;
+}
+
+@media screen and (min-width: 49.75em) {
+  .header-container {
+    //margin-bottom: .5em;
+  }
+}

@@ -1,0 +1,22 @@
+{{ partial "head.html" . }}
+<div class="wrapper">
+  {{ partial "nav.html" . }}
+  <div class="main-container">
+    <div class="wrapper">
+      <div class="sections">
+        <header>
+          <h3>{{ .Title }}
+            <span>Name</span>
+            <span>End Date</span>
+          </h3>
+        </header>
+        <section>
+          {{ range .Data.Pages }}
+          {{ .Render "listItem"}}
+          {{ end }}
+        </section>
+      </div>
+    </div>
+  </div>
+  {{ partial "footer.html" . }}
+</div>

@@ -1,0 +1,26 @@
+baseURL = "http://michaelnet.biz/"
+enableEmoji = true
+googleAnalytics = "UA-60902806-1"
+languageCode = "en-us"
+theme = "fortpolio"
+title = "Michael E. Nelson"
+resume = ""
+cv = ""
+publishDir = "docs"
+
+SectionPagesMenu = "main"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "CV"
+  url = "/cv/"
+  weight = 2
+
+[[menu.main]]
+  name = "Resume"
+  url = "/resume/"
+  weight = 3

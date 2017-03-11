@@ -1,0 +1,15 @@
+<div class="header-container">
+  <header class="wrapper clearfix">
+    <span>{{ .Site.Title }}</span>
+    <nav>
+      <button class="burger"></button>
+      <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li><a {{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}} href="{{.URL}}"> {{ .Name }} </a> </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </header>
+</div>
+<script src="{{ .Site.BaseURL }}js/nav.js"></script>

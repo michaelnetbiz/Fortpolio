@@ -1,0 +1,31 @@
+.about {
+  //border: solid $purple 1px;
+  width: 80%;
+  margin: auto;
+}
+
+.about section {
+  font-family: 'PT Serif', Georgia, sans-serif;
+  font-weight: 300;
+}
+
+.about section p {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.about section ul {
+  padding-left: 0;
+  text-align: left;
+}
+
+.about section ul li {
+  display: list-item;
+}
+
+@media screen and (min-width: 49.75em) {
+  .about {
+    width: 80%;
+    margin: auto;
+  }
+}

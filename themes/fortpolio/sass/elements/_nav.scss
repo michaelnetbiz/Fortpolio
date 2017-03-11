@@ -1,0 +1,74 @@
+nav {
+  float: right;
+  font-family: 'Gotham Light', sans-serif;
+  position: relative;
+}
+
+nav ul {
+  float: right;
+  padding-left: 0;
+}
+
+nav ul li {
+  padding: .25em;
+}
+
+nav ul li a {
+  color: $purple;
+  transition: 0.5s ease;
+  display: inline-block;
+  font-size: 1em;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+  background-color: $purple;
+  color: $white;
+}
+
+nav ul li a.active {
+  background-color: $purple;
+  color: $white;
+}
+
+nav ul {
+  display: none;
+}
+
+@media screen and (min-width: 49.75em) {
+  nav ul {
+    display: block;
+  }
+
+  nav ul li a {
+    font-size: 1.25em;
+  }
+}
+
+nav ul.active {
+  background-color: $purple;
+  border: solid $light-purple 5px;
+  display: inline-block;
+  margin-top: 0;
+  padding: 1em 2em 1em 2em;
+  position: absolute;
+  right: 0;
+}
+
+nav ul.active li {
+  width: 100%;
+}
+
+nav ul.active li a {
+  transition: 0.5s ease;
+  color: $white;
+  font-weight: 300;
+  width: 100%;
+}
+
+nav ul.active li a:hover, nav ul.active li a:focus {
+  color: $light-purple;
+}
+
+nav ul.active li a.active {
+  color: $light-purple;
+}

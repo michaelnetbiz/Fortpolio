@@ -1,0 +1,22 @@
+.main {
+  display: table;
+}
+
+.main h3 {
+  padding: 0 2%;
+}
+
+.main h4 {
+  padding: 0 5%;
+  text-align: center;
+}
+
+.main p {
+  padding: 0 5%;
+}
+
+@media screen and (min-width: 49.75em) {
+  .main h4 {
+    text-align: left;
+  }
+}

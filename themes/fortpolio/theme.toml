@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/spf13/hugoThemes#themetoml for an example
+
+name = "Fortpolio"
+license = "MIT"
+licenselink = "https://github.com/michaelnetbiz/fortpolio/blob/master/LICENSE.md"
+description = ""
+homepage = "http://michaelnet.biz/"
+tags = []
+features = []
+min_version = 0.19
+
+[author]
+  name = "Michael E. Nelson"
+  homepage = "http://michaelnet.biz/"
