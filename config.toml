@@ -15,12 +15,12 @@ SectionPagesMenu = "main"
   url = "/"
   weight = 1
 
-[[menu.main]]
-  name = "CV"
-  url = "/cv/"
-  weight = 2
+#[[menu.main]]
+#  name = "CV"
+#  url = "/michael-e-nelson-resume-9-mar-2017.pdf"
+#  weight = 2
 
 [[menu.main]]
   name = "Resume"
-  url = "/resume/"
+  url = "/michael-e-nelson-resume-9-mar-2017.pdf"
   weight = 3
