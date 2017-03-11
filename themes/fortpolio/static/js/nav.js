@@ -17,7 +17,7 @@
   menu = nav.getElementsByTagName('ul')[0];
   menu.setAttribute('aria-expanded', 'false');
 
-  button.onclick = function() {
+  button.onclick = function () {
     if (-1 !== nav.className.indexOf('active')) {
       button.classList.toggle('active');
       menu.classList.toggle('active');
