@@ -1,16 +1,19 @@
 +++
 date = "2016-10-08"
-title = "Who’s Paying for class=”fa fa-home”?"
 summary = ""
+title = "Who’s Paying for class=”fa fa-home”?"
 
 [header]
   external_link = "http://chi.anthropology.msu.edu/2016/10/whos-paying-for-classfa-fa-home/"
-  image_preview = ""
-  tags = []
-  caption = "My caption :smile:"
-  image = "bubbles.jpg"
   highlight = true
   math = false
-
+  tags = ["chi"]
 +++
 
+I recently switched to one of these wireless service providers with a sort of pay-as-you-go model, and so now I’m (trying to be?) thriftier when it comes to the data I consume. Earlier today, as we wrapped up our cultural heritage project pitch websites and learned about mapping tools, the option I was recently given on my phone by the Google Maps application to download my area for navigation offline prompted me to take a step back and think about my team’s project website in terms of design choices, especially with regard to the cost of accessing it.
+
+Providing some context: for the cultural heritage project, we thought of a smartphone application repackaging the audio tour mp3s at Stockholm’s Vasa Museum, currently available on [their website](http://www.vasamuseet.se/en), in order to streamline visitors’ audio tour experience. Beyond thinking about the means by which end-users would get ahold of the application (i.e., by streaming the audio, downloading all mp3s at once, or downloading them one by one during a tour), we did not get too much into the details of implementation, but [the project pitch site](https://bijanisa.github.io/vasa-redux) can serve as a kind of placeholder for thinking about the implementation of cultural heritage projects.
+
+First, [the networking section of the Google Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools/network-performance/resource-loading) provided some useful information about our project site. At its root, our site weighed 6.4 MB, and took 5.26 seconds to load on my home wireless network. The images, alone, accounted for 6.3 of the 6.4 MB. The larger one of the two images (4.3 MB) is hosted with GitHub here in the U.S. and took 513 milliseconds for the browser to retrieve; the smaller one (2.0 MB) took tens times as long (5.14 seconds) to retrieve from its server in Stockholm. Then, using Xcode’s Network Link Conditioner to simulate full network throughput and a latency of 500 milliseconds ([about the latency of a satellite connection](http://compnetworking.about.com/od/speedtests/a/network_latency.htm)), I found that our site took 40.58 seconds to fully load in a browser in those conditions.
+
+Our site uses Twitter’s Bootstrap framework, which is especially useful for building sites that respond to a device screen’s resolution. But the Bootstrap stylesheet alone, gzipped and minified, comes in at a relatively heavy 23.9 KB (cf. other [CSS](https://en.wikipedia.org/wiki/CSS_frameworks) and [JavaScript](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks) frameworks). To echo Ethan’s comments earlier today, Bootstrap is powerful, but to its power comes at a cost. Responsible use of client-side frameworks like Font Awesome or Bootstrap, and assets like the large images we used on our project pitch site means also accounting for that kind of cost. While this is all a bit artificial, since I’m evaluating a site that was not intended for production, a visitor from, say, [New Zealand](https://devchat.tv/js-jabber/114-jsj-asynchronous-ui-and-non-blocking-interactions-with-elliott-kember), would likely be happier if the site were designed with an understanding of conditions further from the internet backbone.

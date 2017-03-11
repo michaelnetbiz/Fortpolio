@@ -1,34 +1,47 @@
 +++
-# Post date.
 date = "2017-02-18"
-
-# Post title.
+summary = ""
 title = "Querying the Collection of the British Museum for Propositional Objects"
 
-# Post summary.
-summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-
-# Post image (relative to `static/img/` folder).
 [header]
-image = "bubbles.jpg"
-caption = "My caption :smile:"
-
-# Post tags.
-tags = ["chi", "sparql", "cidoc-crm", "ontologies"]
-
-# Post external URL (replaces post detail page).
-external_link = "http://chi.anthropology.msu.edu/2017/02/querying-the-collection-of-the-british-museum-for-propositional-objects/"
-
-# Use math markup.
-math = false
+  external_link = "http://chi.anthropology.msu.edu/2017/02/querying-the-collection-of-the-british-museum-for-propositional-objects/"
+  highlight = true
+  math = false
+  tags = ["chi", "sparql", "cidoc-crm", "ontologies"]
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+As I mentioned last month, one of the ideas of the semantic web is to render data from specialized, disparate sources comparable, and this is achieved by developing specifications like CIDOC-CRM. One implementation of CIDOC-CRM is the [Erlangen CRM](http://erlangen-crm.org/). Heritage institutions like the British Museum use implementations like this to organize their collection. It is implemented in the Web Ontology Language (OWL) and can be browsed in an ontology explorer like [Protégé](http://protege.stanford.edu/) or by just reading the XML.
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+The CIDOC-CRM includes a class called [Conceptual Object](http://new.cidoc-crm.org/Entity/e28-conceptual-object/version-6.2). Conceptual Object is a subclass of [Man-Made Thing](http://new.cidoc-crm.org/entity/e71-man-made-thing/version-6.2) and a superclass of both [Propositional Object](http://new.cidoc-crm.org/Entity/e89-propositional-object/version-6.2) and [Symbolic Object](http://new.cidoc-crm.org/Entity/e90-symbolic-object/version-6.2). I’m particularly interested in exploring the Propositional Object class, which includes
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+> “immaterial items, including but not limited to stories, plots, procedural prescriptions, algorithms, laws of physics or images that are, or represent in some sense, sets of propositions about real or imaginary things and that are documented as single units or serve as topic of discourse” (CIDOC-CRM, n.d.).
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+According to the documentation, a set of exemplary instances of this class are the common plot points of Kurosawa’s The Seven Samurai and Sturges’ The Magnificent Seven. A query to a SPARQL endpoint in order to materialize that collection’s Propositional Objects might read as follows:
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+    # declare a prefix
+    # this allows us to refer to objects in the schema directly rather than by 
+      their full URI
+    # e.g., in the query below, crm:E89_Propositional_Object rather than the full 
+      URI http://erlangen-crm.org/current/E89_Propositional_Object
+    PREFIX crm: <http://erlangen-crm.org/current/>
+
+    # specify:
+    # a) the variable that the server should return (?instance)
+    # b) that the server should return unique instances only (with the DISTINCT 
+      modifier)
+    SELECT DISTINCT ?instance
+    # specify the pattern for the server to try to match
+    WHERE { 
+    ?instance a crm:E89_Propositional_Object 
+    }
+    
+    # state how the response should be ordered…
+    ORDER BY ?instance
+    
+    # and the quantity of instances to limit the response to
+    LIMIT 100
+    
+Applying this query to the British Museum’s SPARQL endpoint returns 100 instances of Propositional Object, including [Afghan Studies](http://collection.britishmuseum.org/id/bibliographic-series/Afghan-Studies), [Annual Reports](http://collection.britishmuseum.org/id/bibliographic-series/Annual-Reports), and [Annual Review of the Royal Inscriptions of Mesopotamia Project](http://collection.britishmuseum.org/id/bibliographic-series/Annual-Review-of-the-Royal-Inscriptions-of-Mesopotamia-Project).
+
+Find the British Museum’s SPARQL endpoint and some helpful examples [here](http://collection.britishmuseum.org/sparql).
+

@@ -14,19 +14,19 @@ nav ul li {
 }
 
 nav ul li a {
-  color: $purple;
+  color: $dark-purple;
   transition: 0.5s ease;
   display: inline-block;
   font-size: 1em;
 }
 
 nav ul li a:hover, nav ul li a:focus {
-  background-color: $purple;
+  background-color: $dark-purple;
   color: $white;
 }
 
 nav ul li a.active {
-  background-color: $purple;
+  background-color: $dark-purple;
   color: $white;
 }
 
@@ -45,8 +45,8 @@ nav ul {
 }
 
 nav ul.active {
-  background-color: $purple;
-  border: solid $light-purple 5px;
+  background-color: $dark-purple;
+  border: solid $light-green 5px;
   display: inline-block;
   margin-top: 0;
   padding: 1em 2em 1em 2em;
@@ -66,9 +66,9 @@ nav ul.active li a {
 }
 
 nav ul.active li a:hover, nav ul.active li a:focus {
-  color: $light-purple;
+  color: $light-green;
 }
 
 nav ul.active li a.active {
-  color: $light-purple;
+  color: $light-green;
 }

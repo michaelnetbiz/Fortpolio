@@ -1,17 +1,19 @@
 {{ partial "head.html" . }}
-{{ partial "nav.html" . }}
+<div class="wrapper">
+  {{ partial "nav.html" . }}
 
-<article class="wrapper">
-  <div class="sections">
-    <header>
-      <h3>{{ .Title }}</h3>
-      <h4>{{ .Date.Format "2 Jan 2006" }}</h4>
-    </header>
-    <section>
-      {{ .Content }}
-    </section>
-    <footer></footer>
-  </div>
-</article>
+  <article class="wrapper">
+    <div class="sections">
+      <header>
+        <h3>{{ .Title }}</h3>
+        <h4>{{ .Date.Format "2 Jan 2006" }}</h4>
+      </header>
+      <section>
+        {{ .Content }}
+      </section>
+      <footer></footer>
+    </div>
+  </article>
 
-{{ partial "footer.html" . }}
+  {{ partial "footer.html" . }}
+</div>

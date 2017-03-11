@@ -7,8 +7,12 @@
   margin-top: 1.5em;
 }
 
+.sections section p a {
+  color: $purple;
+}
+
 .sections article {
-  border: solid $purple 1px;
+  border: solid $dark-purple 1px;
   margin: 0 0 .5em 0;
 }
 
@@ -29,7 +33,7 @@
     padding: 0;
   }
   .sections section .list-item {
-    background-color: $light-purple;
+    background-color: $light-green;
     height: 3.5em;
   }
   .sections section .list-item span {
@@ -91,7 +95,7 @@
 }
 
 .sections section .list-item span {
-  color: $purple;
+  color: $dark-purple;
 }
 
 .sections section .list-item span:first-child {

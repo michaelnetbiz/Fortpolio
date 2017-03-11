@@ -1,5 +1,5 @@
 .about {
-  //border: solid $purple 1px;
+  //border: solid $dark-purple 1px;
   width: 80%;
   margin: auto;
 }
@@ -7,11 +7,16 @@
 .about section {
   font-family: 'PT Serif', Georgia, sans-serif;
   font-weight: 300;
+  text-align: center;
 }
 
 .about section p {
   padding-left: 0;
   padding-right: 0;
+}
+
+.about section p a {
+  color: $purple;
 }
 
 .about section ul {
