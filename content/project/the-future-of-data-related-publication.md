@@ -1,11 +1,19 @@
 +++
 date = "2016-09-19"
-summary = ""
+highlight = true
+math = false
+external_link = ""
+tags = ["business-process-analysis", "uml", "data-modeling", ]
 title = "The Future of Data-Related Publication"
-
-[header]
-  external_link = ""
-  highlight = true
-  math = false
-  tags = ["business-process-analysis", "uml", "data-modeling", ]
+summary = ""
 +++
+
+## Problem
+
+## Solution
+
+## [Source and Documentation]
+
+## [Demo]
+
+## Other Assets

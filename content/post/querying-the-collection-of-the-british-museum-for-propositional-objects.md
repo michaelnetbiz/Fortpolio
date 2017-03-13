@@ -1,13 +1,11 @@
 +++
 date = "2017-02-18"
-summary = ""
+highlight = true
+math = false
+external_link = "http://chi.anthropology.msu.edu/2017/02/querying-the-collection-of-the-british-museum-for-propositional-objects/"
+tags = ["chi", "sparql", "cidoc-crm", "ontologies"]
 title = "Querying the Collection of the British Museum for Propositional Objects"
-
-[header]
-  external_link = "http://chi.anthropology.msu.edu/2017/02/querying-the-collection-of-the-british-museum-for-propositional-objects/"
-  highlight = true
-  math = false
-  tags = ["chi", "sparql", "cidoc-crm", "ontologies"]
+summary = ""
 +++
 
 As I mentioned last month, one of the ideas of the semantic web is to render data from specialized, disparate sources comparable, and this is achieved by developing specifications like CIDOC-CRM. One implementation of CIDOC-CRM is the [Erlangen CRM](http://erlangen-crm.org/). Heritage institutions like the British Museum use implementations like this to organize their collection. It is implemented in the Web Ontology Language (OWL) and can be browsed in an ontology explorer like [Protégé](http://protege.stanford.edu/) or by just reading the XML.

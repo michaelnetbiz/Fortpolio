@@ -4,6 +4,22 @@
   margin: auto;
 }
 
+.about header h1 {
+  font-size: 1.25em;
+}
+
+.about header h2, .about section h2 {
+  font-size: 1.15em;
+}
+
+.about header h3, .about section h3 {
+  font-size: 1em;
+}
+
+.about header h4, .about section h4 {
+  font-size: .9em;
+}
+
 .about section {
   font-family: 'PT Serif', Georgia, sans-serif;
   font-weight: 300;

@@ -1,17 +1,15 @@
 +++
+# Project end date
+date = ""
+
 # Project summary.
 summary = ""
 
-# Project image (relative to `static/img/` folder).
-[header]
-image = "bubbles.jpg"
-caption = "My caption :smile:"
+# Project name
+title = ""
 
 # Project tags.
 tags = []
-
-# Optional image to display on homepage.
-image_preview = ""
 
 # Project external URL (replaces project detail page).
 external_link = ""

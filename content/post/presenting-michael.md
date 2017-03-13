@@ -1,13 +1,11 @@
 +++
 date = "2016-09-30"
-summary = ""
+highlight = true
+math = false
+external_link = "http://chi.anthropology.msu.edu/2016/09/presenting-michael/"
+tags = ["chi"]
 title = "Presenting Michael!"
-
-[header]
-  external_link = "http://chi.anthropology.msu.edu/2016/09/presenting-michael/"
-  highlight = true
-  math = false
-  tags = ["chi"]
+summary = ""
 +++
 
 Hi there, CHI community. I’m Michael Nelson, and I’m really excited to be a part of this cohort. I’m in my second year of the master’s program in Media and Information at MSU’s Department of Media and Information. After watching movies and eating food, I’m most interested in exploring scholarly communication and knowledge management. I’m currently exploring those latter two topics in research for my master’s thesis and in other projects at my [college](http://cas.msu.edu/). I also enjoy project-based work on these topics, as I found this past summer working at the [Inter-university Consortium for Political and Social Research](http://www.icpsr.umich.edu/) as part of the University of Michigan iSchool’s [Research Experience for Master’s Students](https://www.si.umich.edu/research/research-experiences-masters-students) program.

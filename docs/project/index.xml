@@ -6,17 +6,8 @@
     <description>Recent content in Projects on Michael E. Nelson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Sep 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://michaelnet.biz/project/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>REDCap-Google Analytics Dashboard Application</title>
-      <link>http://michaelnet.biz/project/redcap-google-analytics-integration/</link>
-      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://michaelnet.biz/project/redcap-google-analytics-integration/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>The Future of Data-Related Publication</title>
@@ -24,7 +15,148 @@
       <pubDate>Mon, 19 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://michaelnet.biz/project/the-future-of-data-related-publication/</guid>
-      <description></description>
+      <description>
+
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+
+&lt;h2 id=&#34;source-and-documentation&#34;&gt;[Source and Documentation]&lt;/h2&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;[Demo]&lt;/h2&gt;
+
+&lt;h2 id=&#34;other-assets&#34;&gt;Other Assets&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Affective Misattribution Procedure Web Implementation</title>
+      <link>http://michaelnet.biz/project/affective-misattribution-procedure-web-implementation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/project/affective-misattribution-procedure-web-implementation/</guid>
+      <description>
+
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+
+&lt;h2 id=&#34;source-and-documentation-https-github-com-michaelnetbiz-amp&#34;&gt;&lt;a href=&#34;https://github.com/michaelnetbiz/amp&#34;&gt;Source and Documentation&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;[Demo]&lt;/h2&gt;
+
+&lt;h2 id=&#34;other-assets&#34;&gt;Other Assets&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Heritage Metadata Explorer</title>
+      <link>http://michaelnet.biz/project/heritage-metadata-explorer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/project/heritage-metadata-explorer/</guid>
+      <description>
+
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+
+&lt;h2 id=&#34;source-and-documentation&#34;&gt;[Source and Documentation]&lt;/h2&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;[Demo]&lt;/h2&gt;
+
+&lt;h2 id=&#34;other-assets&#34;&gt;Other Assets&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>InstaConsumerSocialization Universal Windows Platform Research Instrument</title>
+      <link>http://michaelnet.biz/project/insta-consumer-socialization-universal-windows-platform-research-instrument/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/project/insta-consumer-socialization-universal-windows-platform-research-instrument/</guid>
+      <description>
+
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+
+&lt;h2 id=&#34;source-and-documentation&#34;&gt;[Source and Documentation]&lt;/h2&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;[Demo]&lt;/h2&gt;
+
+&lt;h2 id=&#34;other-assets&#34;&gt;Other Assets&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>REDCap and Google Analytics Integration</title>
+      <link>http://michaelnet.biz/project/redcap-and-google-analytics-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/project/redcap-and-google-analytics-integration/</guid>
+      <description>
+
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;The Project team needed a way to integrate their analysis of conventional survey data, participant interviews, social worker case notes, and Google Analytics session data on participants&amp;rsquo; use of the Project&amp;rsquo;s Virtual Stroke Support Portal (VSSP).&lt;/p&gt;
+
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;Working on a team of Media and Information master&amp;rsquo;s students during the Fall of Academic Year 2016-2017, I developed the server-side and client-side systems for this proof-of-concept web application. The application was designed to support MISTT Project data analysis, and was implemented as a Flask web application that accepted, cleaned, and persisted .csv uploads to a database. These uploads were export of varying types (e.g., closeouts, interactions, biopsychosocial assessments, inter alia) from the Project&amp;rsquo;s REDCap instance. Juxtaposing uploaded data with data from Google Analytics (accessed through the debrouwere/google-analytics Python facility), data relevant to each case identifier were subsequently presented to the user via Angular.js controllers.&lt;/p&gt;
+
+&lt;p&gt;At the beginning of this semester I was asked by the MISTT Project team to consult on the project for further development. This consists in implementing unit tests, documenting the deliverable more comprehensively, with the Sphinx documentation library, and improving the health informatics application&amp;rsquo;s ability to model Goals and Goal Types from uploaded data.&lt;/p&gt;
+
+&lt;h2 id=&#34;source-and-documentation-https-github-com-michaelnetbiz-mistt-solution&#34;&gt;&lt;a href=&#34;https://github.com/michaelnetbiz/mistt-solution&#34;&gt;Source and Documentation&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&#34;demo-http-mistt-solution-herokuapp-com&#34;&gt;&lt;a href=&#34;http://mistt-solution.herokuapp.com&#34;&gt;Demo&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&#34;other-assets&#34;&gt;Other Assets&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taylor Aggression Paradigm Web Implementation</title>
+      <link>http://michaelnet.biz/project/taylor-aggression-paradigm-web-implementation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/project/taylor-aggression-paradigm-web-implementation/</guid>
+      <description>
+
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;The research team was interested in measuring aggression on the internet. Of course, it&amp;rsquo;s not too hard to anger people on the internet (!); the challenge is to do so consistently. The Taylor Aggression Paradigm has been used to reliably induce aggression in lab settings. Thus, the problem emerged: to implement the paradigm for broader use, on the internet.&lt;/p&gt;
+
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;I implemented the Taylor Aggression Paradigm, heretofore mainly administered in labs via a software package like Inquisit, as a JavaScript application for administration via Qualtrics. Data collected with two versions of this instrument are currently being used by a Michigan State research team in pursuit of a NIH grant.&lt;/p&gt;
+
+&lt;h2 id=&#34;source-and-documentation-https-github-com-michaelnetbiz-tap-js&#34;&gt;&lt;a href=&#34;https://github.com/michaelnetbiz/tap-js&#34;&gt;Source and Documentation&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;[Demo]&lt;/h2&gt;
+
+&lt;h2 id=&#34;other-assets&#34;&gt;Other Assets&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WordPress Theme for the Journal of West African History</title>
+      <link>http://michaelnet.biz/project/wordpress-theme-for-the-journal-of-west-african-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/project/wordpress-theme-for-the-journal-of-west-african-history/</guid>
+      <description>
+
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+
+&lt;h2 id=&#34;source-and-documentation&#34;&gt;[Source and Documentation]&lt;/h2&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;[Demo]&lt;/h2&gt;
+
+&lt;h2 id=&#34;other-assets&#34;&gt;Other Assets&lt;/h2&gt;
+</description>
     </item>
     
   </channel>

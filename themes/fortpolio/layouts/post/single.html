@@ -5,8 +5,12 @@
   <article class="wrapper">
     <div class="sections">
       <header>
-        <h3>{{ .Title }}</h3>
-        <h4>{{ .Date.Format "2 Jan 2006" }}</h4>
+        <h1>{{ .Title }}</h1>
+        <h2>{{ .Date.Format "2 Jan 2006" }}</h2>
+        <ul>{{ range .Params.tags }}
+          <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+          {{ end }}
+        </ul>
       </header>
       <section>
         {{ .Content }}

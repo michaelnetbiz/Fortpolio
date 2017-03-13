@@ -1,13 +1,11 @@
 +++
 date = "2016-11-06"
-summary = ""
+highlight = true
+math = false
+external_link = "http://chi.anthropology.msu.edu/2016/11/icts-and-indigenous-knowledges/"
+tags = ["chi", "ictd"]
 title = "ICTs and Indigenous Knowledges"
-
-[header]
-  external_link = "http://chi.anthropology.msu.edu/2016/11/icts-and-indigenous-knowledges/"
-  highlight = true
-  math = false
-  tags = ["chi"]
+summary = ""
 +++
 
 This past Friday, we talked about licensing. As I’ve mentioned before, I’m interested in information and communication technologies (ICTs) and traditional knowledges (TK), which are the product of the intricate relationships between indigenous peoples and the specific places in which they have lived or used to live for long periods of time. Questions of licensing that are specific to this class of knowledge – the question of who has the right to access, use, modify, distribute, profit from, or otherwise relate to some piece of TK – are warranted by the historically antagonistic relationship toward TK of modernization projects like residential school systems for indigenous children, or the removal of artifacts for sale, analysis, and display in museums or private collections.

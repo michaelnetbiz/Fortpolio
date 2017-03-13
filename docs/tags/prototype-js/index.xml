@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prototype Js on Michael E. Nelson</title>
+    <link>http://michaelnet.biz/tags/prototype-js/index.xml</link>
+    <description>Recent content in Prototype Js on Michael E. Nelson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://michaelnet.biz/tags/prototype-js/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Taylor Aggression Paradigm Web Implementation</title>
+      <link>http://michaelnet.biz/project/taylor-aggression-paradigm-web-implementation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/project/taylor-aggression-paradigm-web-implementation/</guid>
+      <description>
+
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;The research team was interested in measuring aggression on the internet. Of course, it&amp;rsquo;s not too hard to anger people on the internet (!); the challenge is to do so consistently. The Taylor Aggression Paradigm has been used to reliably induce aggression in lab settings. Thus, the problem emerged: to implement the paradigm for broader use, on the internet.&lt;/p&gt;
+
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;I implemented the Taylor Aggression Paradigm, heretofore mainly administered in labs via a software package like Inquisit, as a JavaScript application for administration via Qualtrics. Data collected with two versions of this instrument are currently being used by a Michigan State research team in pursuit of a NIH grant.&lt;/p&gt;
+
+&lt;h2 id=&#34;source-and-documentation-https-github-com-michaelnetbiz-tap-js&#34;&gt;&lt;a href=&#34;https://github.com/michaelnetbiz/tap-js&#34;&gt;Source and Documentation&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;[Demo]&lt;/h2&gt;
+
+&lt;h2 id=&#34;other-assets&#34;&gt;Other Assets&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

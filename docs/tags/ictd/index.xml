@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ictd on Michael E. Nelson</title>
+    <link>http://michaelnet.biz/tags/ictd/index.xml</link>
+    <description>Recent content in Ictd on Michael E. Nelson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://michaelnet.biz/tags/ictd/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ICTs and Indigenous Knowledges</title>
+      <link>http://michaelnet.biz/post/icts-and-indigenous-knowledges/</link>
+      <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/post/icts-and-indigenous-knowledges/</guid>
+      <description>&lt;p&gt;This past Friday, we talked about licensing. As I’ve mentioned before, I’m interested in information and communication technologies (ICTs) and traditional knowledges (TK), which are the product of the intricate relationships between indigenous peoples and the specific places in which they have lived or used to live for long periods of time. Questions of licensing that are specific to this class of knowledge – the question of who has the right to access, use, modify, distribute, profit from, or otherwise relate to some piece of TK – are warranted by the historically antagonistic relationship toward TK of modernization projects like residential school systems for indigenous children, or the removal of artifacts for sale, analysis, and display in museums or private collections.&lt;/p&gt;
+
+&lt;p&gt;I’d argue that at this point in time, ICTs and traditional knowledges relate in at least three ways:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;ICTs can be vehicles for the publication of TK artifacts, whether for journalistic or scholarly purposes. This is afforded by the internet and web content management systems (CMS) like the domain-specific &lt;a href=&#34;http://omeka.org/&#34;&gt;Omeka&lt;/a&gt; or more generically WordPress and Drupal. See, for instance, the project &lt;a href=&#34;http://indigenousnewengland.com/geolocation/map/browse&#34;&gt;“Dawnland Voices: Writings of Indigenous New England”&lt;/a&gt; (Omeka) or &lt;a href=&#34;http://indiancountrytodaymedianetwork.com/&#34;&gt;Indian Country Today Media Network&lt;/a&gt; (Drupal).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ICTs can be instruments for the organization of TK. Knowledge objects like place names, demonyms, and flora and fauna names have historically been a) subordinated to western names, and b) relegated to arcane corners of the Library of Congress (LOC) or Dewey Decimal subject headings (“Mythology, Other”). The &lt;a href=&#34;http://xwi7xwa.library.ubc.ca/&#34;&gt;Xwi7xwa subject headings&lt;/a&gt; developed by the Library of the University of British Columbia is a widely cited positive example of the organizational role of ICTs in TK. The modeling of Andean craftsmanship documented in &lt;a href=&#34;http://dl.acm.org/citation.cfm?doid=2700427&#34;&gt;Brownlow et al. (2015)&lt;/a&gt; is a good example of ontological organization of TK.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ICTs as aides in the application of TK alongside (if not as integral than at least as supplementary to) professional knowledges, as in the domain of natural resource management. An example of this might be &lt;a href=&#34;http://www.mikmawconservation.ca/sar-database/&#34;&gt;web resources documenting species names&lt;/a&gt; and associations between a species and an environment, habitat, or another species (as a reference, for instance, in administering and complying to Canada’s Species at Risk Act). Given the &lt;a href=&#34;http://www.hup.harvard.edu/catalog.php?isbn=9780674025684&#34;&gt;history of extracting TK&lt;/a&gt;, provisioning such a web resource would need to involve careful consideration of the problem of TK licensing; the problem of whether and how to provide for more sensitive items (e.g., information about the associations between a given species and uses such as medicinal; food and beverage; technology, arts and crafts; and social or religious rites).&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The problem of &lt;a href=&#34;http://www.sfu.ca/ipinch/project-components/community-based-initiatives/special-initiative-traditional-knowledge-licensing-an/&#34;&gt;providing and consuming rights to use, distribute, modify, and otherwise relate to TK&lt;/a&gt; is present in each of these configurations between ICTs and TK. Diving into data modeling this semester, with a class on enterprise database systems at the business college, I’m not surprised to find myself thinking about these topics as I continue to plan my project for this fellowship.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -203,8 +203,20 @@ nav ul {
   nav ul li a {
     font-size: 1.25em;
   }
+
+  /* line 46, ../../sass/elements/_nav.scss */
+  nav ul li a.active {
+    background-color: #554AAA;
+    color: #ffffff;
+  }
+
+  /* line 51, ../../sass/elements/_nav.scss */
+  nav ul li a:hover, nav ul li a:focus {
+    background-color: #554AAA;
+    color: #ffffff;
+  }
 }
-/* line 47, ../../sass/elements/_nav.scss */
+/* line 57, ../../sass/elements/_nav.scss */
 nav ul.active {
   background-color: #0f0d1e;
   border: solid #A3D0BB 5px;
@@ -215,12 +227,12 @@ nav ul.active {
   right: 0;
 }
 
-/* line 57, ../../sass/elements/_nav.scss */
+/* line 67, ../../sass/elements/_nav.scss */
 nav ul.active li {
   width: 100%;
 }
 
-/* line 61, ../../sass/elements/_nav.scss */
+/* line 71, ../../sass/elements/_nav.scss */
 nav ul.active li a {
   transition: 0.5s ease;
   color: #ffffff;
@@ -228,12 +240,12 @@ nav ul.active li a {
   width: 100%;
 }
 
-/* line 68, ../../sass/elements/_nav.scss */
+/* line 78, ../../sass/elements/_nav.scss */
 nav ul.active li a:hover, nav ul.active li a:focus {
   color: #A3D0BB;
 }
 
-/* line 72, ../../sass/elements/_nav.scss */
+/* line 82, ../../sass/elements/_nav.scss */
 nav ul.active li a.active {
   color: #A3D0BB;
 }
@@ -266,35 +278,55 @@ pre {
 }
 
 /* line 7, ../../sass/components/_about.scss */
+.about header h1 {
+  font-size: 1.25em;
+}
+
+/* line 11, ../../sass/components/_about.scss */
+.about header h2, .about section h2 {
+  font-size: 1.15em;
+}
+
+/* line 15, ../../sass/components/_about.scss */
+.about header h3, .about section h3 {
+  font-size: 1em;
+}
+
+/* line 19, ../../sass/components/_about.scss */
+.about header h4, .about section h4 {
+  font-size: .9em;
+}
+
+/* line 23, ../../sass/components/_about.scss */
 .about section {
   font-family: 'PT Serif', Georgia, sans-serif;
   font-weight: 300;
 }
 
-/* line 12, ../../sass/components/_about.scss */
+/* line 28, ../../sass/components/_about.scss */
 .about section p {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 17, ../../sass/components/_about.scss */
+/* line 33, ../../sass/components/_about.scss */
 .about section p a {
   color: #554AAA;
 }
 
-/* line 21, ../../sass/components/_about.scss */
+/* line 37, ../../sass/components/_about.scss */
 .about section ul {
   padding-left: 0;
   text-align: left;
 }
 
-/* line 26, ../../sass/components/_about.scss */
+/* line 42, ../../sass/components/_about.scss */
 .about section ul li {
   display: list-item;
 }
 
 @media screen and (min-width: 49.75em) {
-  /* line 31, ../../sass/components/_about.scss */
+  /* line 47, ../../sass/components/_about.scss */
   .about {
     width: 80%;
     margin: auto;
@@ -357,79 +389,110 @@ pre {
   display: none;
 }
 
+/* line 26, ../../sass/components/_sections.scss */
+.sections header h1 {
+  font-size: 1.25em;
+}
+
+/* line 30, ../../sass/components/_sections.scss */
+.sections header h2, .sections section h2 {
+  font-size: 1.15em;
+}
+
+/* line 34, ../../sass/components/_sections.scss */
+.sections header h3, .sections section h3 {
+  font-size: 1em;
+}
+
+/* line 38, ../../sass/components/_sections.scss */
+.sections header h4, .sections section h4 {
+  font-size: .9em;
+}
+
+/* line 42, ../../sass/components/_sections.scss */
+.sections header ul {
+  display: inline-block;
+  padding-left: 0;
+}
+
+/* line 47, ../../sass/components/_sections.scss */
+.sections header ul li {
+  display: inline-block;
+}
+
 @media screen and (min-width: 49.75em) {
-  /* line 27, ../../sass/components/_sections.scss */
+  /* line 52, ../../sass/components/_sections.scss */
   .sections {
     margin: auto;
     width: 100%;
   }
 
-  /* line 31, ../../sass/components/_sections.scss */
+  /* line 56, ../../sass/components/_sections.scss */
   .sections section {
     margin-top: 0;
     padding: 0;
   }
 
-  /* line 35, ../../sass/components/_sections.scss */
+  /* line 60, ../../sass/components/_sections.scss */
   .sections section .list-item {
     background-color: #A3D0BB;
     height: 3.5em;
   }
 
-  /* line 39, ../../sass/components/_sections.scss */
+  /* line 64, ../../sass/components/_sections.scss */
   .sections section .list-item span {
     padding: 1em;
   }
 
-  /* line 42, ../../sass/components/_sections.scss */
+  /* line 67, ../../sass/components/_sections.scss */
   .sections section .list-item span:first-child {
     float: left;
     padding-right: 0;
   }
 }
 @media screen and (min-width: 54.25em) {
-  /* line 49, ../../sass/components/_sections.scss */
+  /* line 74, ../../sass/components/_sections.scss */
   .sections header {
     display: block;
   }
 
-  /* line 52, ../../sass/components/_sections.scss */
+  /* line 77, ../../sass/components/_sections.scss */
   .sections section .list-item span:last-child {
     display: block !important;
     padding-left: 0;
   }
 }
-/* line 58, ../../sass/components/_sections.scss */
+/* line 83, ../../sass/components/_sections.scss */
 .sections header div {
   width: 100%;
   height: 1em;
 }
 
-/* line 63, ../../sass/components/_sections.scss */
+/* line 88, ../../sass/components/_sections.scss */
 .sections header h3 span {
   font-size: .75em;
   margin: 0;
 }
 
-/* line 68, ../../sass/components/_sections.scss */
+/* line 93, ../../sass/components/_sections.scss */
 .sections header h3 span:first-child {
   float: left;
   padding-left: 1em;
 }
 
-/* line 73, ../../sass/components/_sections.scss */
+/* line 98, ../../sass/components/_sections.scss */
 .sections header h3 span:last-child {
   float: right;
   padding-right: 1em;
 }
 
-/* line 78, ../../sass/components/_sections.scss */
+/* line 103, ../../sass/components/_sections.scss */
 .sections footer {
   font-family: 'Gotham Light', sans-serif;
   padding: 0 1%;
 }
 
-/* line 83, ../../sass/components/_sections.scss */
+/* line 108, ../../sass/components/_sections.scss */
 .sections section .list-item {
   margin-bottom: 1em;
   margin-left: auto;
@@ -440,22 +503,22 @@ pre {
   width: 100%;
 }
 
-/* line 93, ../../sass/components/_sections.scss */
+/* line 118, ../../sass/components/_sections.scss */
 .sections section .list-item:hover, .sections section .list-item:focus {
   box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* line 97, ../../sass/components/_sections.scss */
+/* line 122, ../../sass/components/_sections.scss */
 .sections section .list-item span {
   color: #0f0d1e;
 }
 
-/* line 101, ../../sass/components/_sections.scss */
+/* line 126, ../../sass/components/_sections.scss */
 .sections section .list-item span:first-child {
   font-family: 'Gotham Light', Georgia, sans-serif;
 }
 
-/* line 105, ../../sass/components/_sections.scss */
+/* line 130, ../../sass/components/_sections.scss */
 .sections section .list-item span:last-child {
   display: none;
   float: right;

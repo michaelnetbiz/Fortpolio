@@ -1,13 +1,11 @@
 +++
 date = "2016-10-08"
-summary = ""
+highlight = true
+math = false
+external_link = "http://chi.anthropology.msu.edu/2016/10/whos-paying-for-classfa-fa-home/"
+tags = ["chi", "network-latency"]
 title = "Who’s Paying for class=”fa fa-home”?"
-
-[header]
-  external_link = "http://chi.anthropology.msu.edu/2016/10/whos-paying-for-classfa-fa-home/"
-  highlight = true
-  math = false
-  tags = ["chi"]
+summary = ""
 +++
 
 I recently switched to one of these wireless service providers with a sort of pay-as-you-go model, and so now I’m (trying to be?) thriftier when it comes to the data I consume. Earlier today, as we wrapped up our cultural heritage project pitch websites and learned about mapping tools, the option I was recently given on my phone by the Google Maps application to download my area for navigation offline prompted me to take a step back and think about my team’s project website in terms of design choices, especially with regard to the cost of accessing it.

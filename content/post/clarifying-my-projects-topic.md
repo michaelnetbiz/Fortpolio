@@ -1,13 +1,11 @@
 +++
 date = "2016-12-10"
-summary = ""
+highlight = true
+math = false
+external_link = "http://chi.anthropology.msu.edu/2016/12/clarifying-my-projects-topic/"
+tags = ["chi", "heritage"]
 title = "Clarifying My Project’s Topic"
-
-[header]
-  external_link = "http://chi.anthropology.msu.edu/2016/12/clarifying-my-projects-topic/"
-  highlight = true
-  math = false
-  tags = ["chi"]
+summary = ""
 +++
 
 My project will consist of a deep dive into the representation of heritage objects in [CIDOC-CRM](http://cidoc-crm.org/) and will result in an interactive presentation of case analyses of CIDOC-CRM object descriptions.

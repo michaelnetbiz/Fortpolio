@@ -5,13 +5,10 @@
     <div class="wrapper">
       <div class="sections">
         <header>
-          <h3>{{ .Title }}
-            <span>Name</span>
-            <span>End Date</span>
-          </h3>
+          <h1>{{ .Title }}</h1>
         </header>
         <section>
-          {{ range .Data.Pages }}
+          {{ range .Data.Pages.ByTitle }}
           {{ .Render "listItem"}}
           {{ end }}
         </section>
