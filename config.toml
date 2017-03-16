@@ -7,6 +7,8 @@ title = "Michael E. Nelson"
 resume = ""
 cv = ""
 publishDir = "docs"
+#TODO: consume GitHub API
+githubUsername = ""
 
 SectionPagesMenu = "main"
 
@@ -17,5 +19,5 @@ SectionPagesMenu = "main"
 
 [[menu.main]]
   name = "Resume"
-  url = "/michael-e-nelson-resume-14-mar-2017.pdf"
+  url = "/michael-e-nelson-resume-16-mar-2017.pdf"
   weight = 2
