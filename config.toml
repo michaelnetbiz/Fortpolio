@@ -9,6 +9,7 @@ cv = ""
 publishDir = "docs"
 #TODO: consume GitHub API
 githubUsername = ""
+enableRobotsTXT = "true"
 
 SectionPagesMenu = "main"
 
