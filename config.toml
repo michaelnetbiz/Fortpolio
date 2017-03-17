@@ -1,3 +1,4 @@
+# TODO: fix https gh-pages problem
 baseURL = "http://michaelnet.biz/"
 enableEmoji = true
 googleAnalytics = "UA-60902806-4"
@@ -7,7 +8,7 @@ title = "Michael E. Nelson"
 resume = ""
 cv = ""
 publishDir = "docs"
-#TODO: consume GitHub API
+# TODO: consume GitHub API
 githubUsername = ""
 enableRobotsTXT = "true"
 
