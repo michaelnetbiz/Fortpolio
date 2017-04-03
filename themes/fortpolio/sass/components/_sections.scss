@@ -60,6 +60,7 @@
   .sections section .list-item {
     background-color: $light-green;
     height: 3.5em;
+    overflow-x: hidden;
   }
   .sections section .list-item span {
     padding: 1em;

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Heritage on Michael E. Nelson</title>
-    <link>http://michaelnet.biz/tags/heritage/index.xml</link>
-    <description>Recent content in Heritage on Michael E. Nelson</description>
+    <title>Scholarly Communication on Michael E. Nelson</title>
+    <link>http://michaelnet.biz/tags/scholarly-communication/index.xml</link>
+    <description>Recent content in Scholarly Communication on Michael E. Nelson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://michaelnet.biz/tags/heritage/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://michaelnet.biz/tags/scholarly-communication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Considering ICT-Mediated Humanities Collaboration: A Report from ACRL 2017</title>
@@ -21,28 +21,6 @@
 &lt;p&gt;Finally, the authors encouraged information professionals to foster experimentation in novel forms of Scholarly Communication and Dissemination.  Significant, but certainly not the only developments include the use of blogs and personal websites for scholarly communication and dissemination, the use of platforms like GitHub, GitBook, or Authorea, and the use of networks like SSRN, Mendeley, Zotero, or ResearchGate.&lt;/p&gt;
 
 &lt;p&gt;Considering electronically-mediated scholarly collaboration, one challenge to effectiveness is the very knowledge in which researchers trade. Codifying knowledge that is part of a rapidly evolving domain is a problem particularly for the knowledge work of distributed research teams, whatever the branch of the sciences (&lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.1083-6101.2007.00343.x/full&#34;&gt;Bos et al., 2007&lt;/a&gt;). On this point, researchers in computer-supported cooperative work (CSCW) have advanced our understanding of the need to enrich virtual knowledge-work-spaces, suggesting features like document annotation or authorship tracking to produce affordances like knowledge evolution monitoring (&lt;a href=&#34;http://dl.acm.org/citation.cfm?doid=2151163.2151169&#34;&gt;Malhotra and Majchrak, 2012&lt;/a&gt;). One particularly exciting development that seems to address this obstacle to collaboration is content that is published on the web not only for dissemination but, even more, to elicit wider contribution. In this respect, these projects (perhaps a subset of what have been called virtual research environments?) constitute something more than scholarly communication/dissemination. Examples of this kind of project include the Modes of Existence project (&lt;a href=&#34;http://modesofexistence.org/&#34;&gt;site&lt;/a&gt; / &lt;a href=&#34;https://github.com/medialab/aime-core0&#34;&gt;source&lt;/a&gt;), and the Platform for Experimental and Collaborative Ethnography, which grew out of the Asthma Files project (&lt;a href=&#34;http://theasthmafiles.org/&#34;&gt;site&lt;/a&gt; / &lt;a href=&#34;https://github.com/PECE-project/drupal-pece&#34;&gt;source&lt;/a&gt;).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Clarifying My Project’s Topic</title>
-      <link>http://michaelnet.biz/post/clarifying-my-projects-topic/</link>
-      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://michaelnet.biz/post/clarifying-my-projects-topic/</guid>
-      <description>&lt;p&gt;My project will consist of a deep dive into the representation of heritage objects in &lt;a href=&#34;http://cidoc-crm.org/&#34;&gt;CIDOC-CRM&lt;/a&gt; and will result in an interactive presentation of case analyses of CIDOC-CRM object descriptions.&lt;/p&gt;
-
-&lt;p&gt;I’m interested in exploring the operations through which an object comes to be recognized as a heritage object. In documenting the why of the project, I’ve dabbled with the term &amp;lsquo;heritage industry&amp;rsquo;. But while I’ve found &lt;a href=&#34;http://www.open.edu/openlearn/history-the-arts/history/heritage/what-heritage/content-section-3.1&#34;&gt;The heritage industry: Britain in a climate of decline&lt;/a&gt; (Hewison, 1987) pretty compelling, I’m not interested in what seems more like a particular argument’s foil to history, well executed, than a term with much analytic purchase here. It will be more productive to say that I’m interested in what happens in the space described in the &lt;a href=&#34;http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27&#34;&gt;International Standard Industrial Classification&lt;/a&gt; (ISIC), most recently in &lt;a href=&#34;http://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=27&amp;amp;Lg=1&amp;amp;Co=91&#34;&gt;ISIC Revision 4 Section R Division 91&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;This division includes activities of libraries and archives; the operation of museums of all kinds, botanical and zoological gardens; the operation of historical sites and nature reserves activities. It also includes the preservation and exhibition of objects, sites and natural wonders of historical, cultural or educational interest (e.g. world heritage sites, etc).&lt;/p&gt;
-
-&lt;p&gt;This division excludes sports, amusement and recreation activities, such as the operation of bathing beaches and recreation parks (see division 93).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Moving forward, I’ll need to do some reading about the extent to which activities in this space can be described in concepts like between-firm value networks and within-firm value chains composed of business processes, not to mention the very concept of the firm, and whether organizations acting in this space can even be described as such.&lt;/p&gt;
-
-&lt;p&gt;I’m thinking this project will involve almost as much conceptual plumbing work as it will design and development. I’m not unhappy about that, but it should go without saying that suggestions on literature to check out will be welcome!&lt;/p&gt;
 </description>
     </item>
     

@@ -437,62 +437,63 @@ pre {
   .sections section .list-item {
     background-color: #A3D0BB;
     height: 3.5em;
+    overflow-x: hidden;
   }
 
-  /* line 64, ../../sass/components/_sections.scss */
+  /* line 65, ../../sass/components/_sections.scss */
   .sections section .list-item span {
     padding: 1em;
   }
 
-  /* line 67, ../../sass/components/_sections.scss */
+  /* line 68, ../../sass/components/_sections.scss */
   .sections section .list-item span:first-child {
     float: left;
     padding-right: 0;
   }
 }
 @media screen and (min-width: 54.25em) {
-  /* line 74, ../../sass/components/_sections.scss */
+  /* line 75, ../../sass/components/_sections.scss */
   .sections header {
     display: block;
   }
 
-  /* line 77, ../../sass/components/_sections.scss */
+  /* line 78, ../../sass/components/_sections.scss */
   .sections section .list-item span:last-child {
     display: block !important;
     padding-left: 0;
   }
 }
-/* line 83, ../../sass/components/_sections.scss */
+/* line 84, ../../sass/components/_sections.scss */
 .sections header div {
   width: 100%;
   height: 1em;
 }
 
-/* line 88, ../../sass/components/_sections.scss */
+/* line 89, ../../sass/components/_sections.scss */
 .sections header h3 span {
   font-size: .75em;
   margin: 0;
 }
 
-/* line 93, ../../sass/components/_sections.scss */
+/* line 94, ../../sass/components/_sections.scss */
 .sections header h3 span:first-child {
   float: left;
   padding-left: 1em;
 }
 
-/* line 98, ../../sass/components/_sections.scss */
+/* line 99, ../../sass/components/_sections.scss */
 .sections header h3 span:last-child {
   float: right;
   padding-right: 1em;
 }
 
-/* line 103, ../../sass/components/_sections.scss */
+/* line 104, ../../sass/components/_sections.scss */
 .sections footer {
   font-family: 'Gotham Light', sans-serif;
   padding: 0 1%;
 }
 
-/* line 108, ../../sass/components/_sections.scss */
+/* line 109, ../../sass/components/_sections.scss */
 .sections section .list-item {
   margin-bottom: 1em;
   margin-left: auto;
@@ -503,22 +504,22 @@ pre {
   width: 100%;
 }
 
-/* line 118, ../../sass/components/_sections.scss */
+/* line 119, ../../sass/components/_sections.scss */
 .sections section .list-item:hover, .sections section .list-item:focus {
   box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* line 122, ../../sass/components/_sections.scss */
+/* line 123, ../../sass/components/_sections.scss */
 .sections section .list-item span {
   color: #0f0d1e;
 }
 
-/* line 126, ../../sass/components/_sections.scss */
+/* line 127, ../../sass/components/_sections.scss */
 .sections section .list-item span:first-child {
   font-family: 'Gotham Light', Georgia, sans-serif;
 }
 
-/* line 130, ../../sass/components/_sections.scss */
+/* line 131, ../../sass/components/_sections.scss */
 .sections section .list-item span:last-child {
   display: none;
   float: right;
