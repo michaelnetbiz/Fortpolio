@@ -3,7 +3,7 @@ date = "2017-02-18"
 highlight = true
 math = false
 external_link = "http://chi.anthropology.msu.edu/2017/02/querying-the-collection-of-the-british-museum-for-propositional-objects/"
-tags = ["chi", "sparql", "cidoc-crm", "ontologies"]
+tags = ["chi-fellowship", "sparql", "cidoc-crm", "ontologies"]
 title = "Querying the Collection of the British Museum for Propositional Objects"
 summary = ""
 +++

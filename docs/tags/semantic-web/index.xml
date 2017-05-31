@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semantic Web on Michael E. Nelson</title>
+    <link>http://michaelnet.biz/tags/semantic-web/</link>
+    <description>Recent content in Semantic Web on Michael E. Nelson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelnet.biz/tags/semantic-web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Glambu-Launch Post</title>
+      <link>http://michaelnet.biz/post/the-glambu-launch-post/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/post/the-glambu-launch-post/</guid>
+      <description>Question: What is the sum of the galleries, libraries, archives, and museums industry category‘s acronym (GLAM) and the archaic word ambulator (Noun, “One that walks about” - Lewis &amp;amp; Short, 1879)?
+Answer: Glambulator, the name of my CHI project. Glambulator has launched, and it’s available at glambulator.matrix.msu.edu/.
+ Entity Graph Tab   Glambulator is about exploring the CIDOC Conceptual Reference Model (CIDOC-CRM) and phenomena that have been annotated by it.</description>
+    </item>
+    
+    <item>
+      <title>Visualizing RDF Triples in an Engaging Way</title>
+      <link>http://michaelnet.biz/post/visualizing-rdf-triples-in-an-engaging-way/</link>
+      <pubDate>Sat, 22 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/post/visualizing-rdf-triples-in-an-engaging-way/</guid>
+      <description>The application that has taken shape since the beginning of the CHI fellowship executes queries against the British Museum’s (BM) SPARQL endpoint. The BM system returns results serialized as XML- or JSON-LD. The application updates its data store (Redux) and renders the collection of results as a simple list. This is straightforward enough. On the other hand, I’ve had to think a bit more about how to render single query results in response to user selection of any given list item.</description>
+    </item>
+    
+  </channel>
+</rss>

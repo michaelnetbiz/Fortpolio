@@ -3,7 +3,7 @@ date = "2016-11-06"
 highlight = true
 math = false
 external_link = "http://chi.anthropology.msu.edu/2016/11/icts-and-indigenous-knowledges/"
-tags = ["chi", "ictd"]
+tags = ["chi-fellowship", "ictd"]
 title = "ICTs and Indigenous Knowledges"
 summary = ""
 +++

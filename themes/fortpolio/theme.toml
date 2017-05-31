@@ -8,7 +8,7 @@ description = ""
 homepage = "http://michaelnet.biz/"
 tags = []
 features = []
-min_version = 0.19
+min_version = 0.20
 
 [author]
   name = "Michael E. Nelson"

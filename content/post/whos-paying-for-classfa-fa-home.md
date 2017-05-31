@@ -3,7 +3,7 @@ date = "2016-10-08"
 highlight = true
 math = false
 external_link = "http://chi.anthropology.msu.edu/2016/10/whos-paying-for-classfa-fa-home/"
-tags = ["chi", "network-latency"]
+tags = ["chi-fellowship", "network-latency"]
 title = "Who’s Paying for class=”fa fa-home”?"
 summary = ""
 +++

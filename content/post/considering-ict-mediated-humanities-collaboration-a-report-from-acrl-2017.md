@@ -3,7 +3,7 @@ date = "2017-03-31"
 highlight = true
 math = false
 external_link = "http://chi.anthropology.msu.edu/2017/03/considering-ict-mediated-humanities-collaboration-a-report-from-acrl-2017/"
-tags = ["chi", "heritage", "scholarly-communication"]
+tags = ["chi-fellowship", "heritage", "scholarly-communication"]
 title = "Considering ICT-Mediated Humanities Collaboration: A Report from ACRL 2017"
 summary = ""
 +++

@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scholarly Communication on Michael E. Nelson</title>
-    <link>http://michaelnet.biz/tags/scholarly-communication/index.xml</link>
+    <link>http://michaelnet.biz/tags/scholarly-communication/</link>
     <description>Recent content in Scholarly Communication on Michael E. Nelson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://michaelnet.biz/tags/scholarly-communication/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelnet.biz/tags/scholarly-communication/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Considering ICT-Mediated Humanities Collaboration: A Report from ACRL 2017</title>
@@ -14,14 +17,7 @@
       <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>http://michaelnet.biz/post/considering-ict-mediated-humanities-collaboration-a-report-from-acrl-2017/</guid>
-      <description>&lt;p&gt;Last week I was able to attend the annual conference for the Association of College and Research Libraries (ACRL) in Baltimore (proceedings &lt;a href=&#34;http://www.ala.org/acrl/conferences/acrl2017/papers&#34;&gt;here&lt;/a&gt;). &lt;a href=&#34;http://www.ala.org/acrl/sites/ala.org.acrl/files/content/conferences/confsandpreconfs/2017/HumanitiesCollaborationsandResearchPractices.pdf&#34;&gt;One talk&lt;/a&gt; struck me as particularly relevant to cultural heritage informatics. The authors explored humanities scholarship collaboration across institutional and disciplinary boundaries, focusing on the fifteen institutions that constitute the &lt;a href=&#34;http://www.humanitieswithoutwalls.illinois.edu/index.html&#34;&gt;Humanities Without Walls (HWW) consortium&lt;/a&gt; (which includes Michigan State). The authors reported the themes that emerged from qualitative analysis of semi-structured interview transcripts, and represented the resultant collaboration network as a network graph with dimensions including team-size per project, number of grant awardees per institution, and number of connections between projects and institutions.&lt;/p&gt;
-
-&lt;p&gt;The authors also advised of ways to engage with these innovative networks of humanities scholarship collaboration. For the Adaptive Research Practices theme that emerged from the analysis, the authors advised intervening at the level of student-instructor interaction. This fellowship’s emphasis on learning techniques for creating and maintaining web content represents this sort of engagement. Regarding the Networks of Scholarship theme identified in the qualitative data analysis, the authors recommended that information professionals support places for scholars to interact across conventional boundaries, for instance in research centers, communities of practice, or other hybrid organizational forms.&lt;/p&gt;
-
-&lt;p&gt;Finally, the authors encouraged information professionals to foster experimentation in novel forms of Scholarly Communication and Dissemination.  Significant, but certainly not the only developments include the use of blogs and personal websites for scholarly communication and dissemination, the use of platforms like GitHub, GitBook, or Authorea, and the use of networks like SSRN, Mendeley, Zotero, or ResearchGate.&lt;/p&gt;
-
-&lt;p&gt;Considering electronically-mediated scholarly collaboration, one challenge to effectiveness is the very knowledge in which researchers trade. Codifying knowledge that is part of a rapidly evolving domain is a problem particularly for the knowledge work of distributed research teams, whatever the branch of the sciences (&lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.1083-6101.2007.00343.x/full&#34;&gt;Bos et al., 2007&lt;/a&gt;). On this point, researchers in computer-supported cooperative work (CSCW) have advanced our understanding of the need to enrich virtual knowledge-work-spaces, suggesting features like document annotation or authorship tracking to produce affordances like knowledge evolution monitoring (&lt;a href=&#34;http://dl.acm.org/citation.cfm?doid=2151163.2151169&#34;&gt;Malhotra and Majchrak, 2012&lt;/a&gt;). One particularly exciting development that seems to address this obstacle to collaboration is content that is published on the web not only for dissemination but, even more, to elicit wider contribution. In this respect, these projects (perhaps a subset of what have been called virtual research environments?) constitute something more than scholarly communication/dissemination. Examples of this kind of project include the Modes of Existence project (&lt;a href=&#34;http://modesofexistence.org/&#34;&gt;site&lt;/a&gt; / &lt;a href=&#34;https://github.com/medialab/aime-core0&#34;&gt;source&lt;/a&gt;), and the Platform for Experimental and Collaborative Ethnography, which grew out of the Asthma Files project (&lt;a href=&#34;http://theasthmafiles.org/&#34;&gt;site&lt;/a&gt; / &lt;a href=&#34;https://github.com/PECE-project/drupal-pece&#34;&gt;source&lt;/a&gt;).&lt;/p&gt;
-</description>
+      <description>Last week I was able to attend the annual conference for the Association of College and Research Libraries (ACRL) in Baltimore (proceedings here). One talk struck me as particularly relevant to cultural heritage informatics. The authors explored humanities scholarship collaboration across institutional and disciplinary boundaries, focusing on the fifteen institutions that constitute the Humanities Without Walls (HWW) consortium (which includes Michigan State). The authors reported the themes that emerged from qualitative analysis of semi-structured interview transcripts, and represented the resultant collaboration network as a network graph with dimensions including team-size per project, number of grant awardees per institution, and number of connections between projects and institutions.</description>
     </item>
     
   </channel>

@@ -2,30 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Modeling on Michael E. Nelson</title>
-    <link>http://michaelnet.biz/tags/data-modeling/index.xml</link>
+    <link>http://michaelnet.biz/tags/data-modeling/</link>
     <description>Recent content in Data Modeling on Michael E. Nelson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://michaelnet.biz/tags/data-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Sep 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelnet.biz/tags/data-modeling/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>The Future of Data-Related Publication</title>
+      <title>The Future of Data-Related Publication (with ICPSR and the iSchool at the University of Michigan)</title>
       <link>http://michaelnet.biz/project/the-future-of-data-related-publication/</link>
       <pubDate>Mon, 19 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://michaelnet.biz/project/the-future-of-data-related-publication/</guid>
-      <description>
-
-&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
-
-&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
-
-&lt;h2 id=&#34;source-and-documentation&#34;&gt;[Source and Documentation]&lt;/h2&gt;
-
-&lt;h2 id=&#34;demo&#34;&gt;[Demo]&lt;/h2&gt;
-
-&lt;h2 id=&#34;other-assets&#34;&gt;Other Assets&lt;/h2&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>

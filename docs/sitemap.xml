@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://michaelnet.biz/project/glambulator/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://michaelnet.biz/post/the-glambu-launch-post/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://michaelnet.biz/post/visualizing-rdf-triples-in-an-engaging-way/</loc>
+    <lastmod>2017-04-22T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>http://michaelnet.biz/post/considering-ict-mediated-humanities-collaboration-a-report-from-acrl-2017/</loc>
@@ -42,29 +58,37 @@
   </url>
   
   <url>
-    <loc>http://michaelnet.biz/project/affective-misattribution-procedure-web-implementation/</loc>
-  </url>
-  
-  <url>
-    <loc>http://michaelnet.biz/tags/angular-js/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://michaelnet.biz/tags/business-process-analysis/</loc>
     <lastmod>2016-09-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://michaelnet.biz/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://michaelnet.biz/tags/chi/</loc>
-    <lastmod>2017-03-31T00:00:00+00:00</lastmod>
+    <lastmod>2017-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://michaelnet.biz/tags/chi-fellowship/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://michaelnet.biz/tags/cidoc-crm/</loc>
-    <lastmod>2017-02-18T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://michaelnet.biz/tags/d3/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -75,23 +99,14 @@
   </url>
   
   <url>
-    <loc>http://michaelnet.biz/tags/flask/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://michaelnet.biz/tags/google-analytics/</loc>
+    <loc>http://michaelnet.biz/tags/eye-tracking/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://michaelnet.biz/tags/heritage/</loc>
-    <lastmod>2017-03-31T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://michaelnet.biz/project/heritage-metadata-explorer/</loc>
   </url>
   
   <url>
@@ -101,17 +116,8 @@
   </url>
   
   <url>
-    <loc>http://michaelnet.biz/project/insta-consumer-socialization-universal-windows-platform-research-instrument/</loc>
-  </url>
-  
-  <url>
-    <loc>http://michaelnet.biz/tags/matrix/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://michaelnet.biz/</loc>
-    <lastmod>2017-03-31T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -122,49 +128,42 @@
   </url>
   
   <url>
-    <loc>http://michaelnet.biz/tags/ontologies/</loc>
-    <lastmod>2017-02-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>http://michaelnet.biz/project/observing-consumer-behavior-on-instagram/</loc>
   </url>
   
   <url>
-    <loc>http://michaelnet.biz/tags/postgres/</loc>
+    <loc>http://michaelnet.biz/tags/ontologies/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://michaelnet.biz/post/</loc>
-    <lastmod>2017-03-31T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://michaelnet.biz/project/</loc>
-    <lastmod>2016-09-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://michaelnet.biz/tags/prototype-js/</loc>
+    <loc>http://michaelnet.biz/tags/provenance/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://michaelnet.biz/tags/qualtrics/</loc>
+    <loc>http://michaelnet.biz/tags/rdf/</loc>
+    <lastmod>2017-04-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://michaelnet.biz/project/redcap-and-google-analytics-integration/</loc>
   </url>
   
   <url>
     <loc>http://michaelnet.biz/tags/react-js/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://michaelnet.biz/tags/redcap/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -175,18 +174,26 @@
   </url>
   
   <url>
+    <loc>http://michaelnet.biz/tags/semantic-web/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://michaelnet.biz/tags/social-networking-sites/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://michaelnet.biz/tags/sparql/</loc>
-    <lastmod>2017-02-18T00:00:00+00:00</lastmod>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://michaelnet.biz/tags/</loc>
+    <lastmod>2016-09-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://michaelnet.biz/project/taylor-aggression-paradigm-web-implementation/</loc>
   </url>
   
   <url>
@@ -196,17 +203,13 @@
   </url>
   
   <url>
-    <loc>http://michaelnet.biz/tags/web-3-0/</loc>
-    <lastmod>2017-01-29T00:00:00+00:00</lastmod>
+    <loc>http://michaelnet.biz/tags/uwp/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://michaelnet.biz/project/wordpress-theme-for-the-journal-of-west-african-history/</loc>
-  </url>
-  
-  <url>
-    <loc>http://michaelnet.biz/tags/wordpress/</loc>
+    <loc>http://michaelnet.biz/tags/web-3-0/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

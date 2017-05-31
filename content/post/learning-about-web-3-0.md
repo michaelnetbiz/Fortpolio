@@ -3,7 +3,7 @@ date = "2017-01-29"
 highlight = true
 math = false
 external_link = "http://chi.anthropology.msu.edu/2017/01/learning-about-web-3-0/"
-tags = ["sparql", "chi", "web-3-0"]
+tags = ["sparql", "chi-fellowship", "web-3-0"]
 title = "Learning About Web 3.0"
 summary = ""
 +++

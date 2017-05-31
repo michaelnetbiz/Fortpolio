@@ -116,6 +116,11 @@
   width: 100%;
 }
 
+.sections header span {
+  float: none;
+  font-size: 1em;
+}
+
 .sections section .list-item:hover, .sections section .list-item:focus {
   box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.05);
 }

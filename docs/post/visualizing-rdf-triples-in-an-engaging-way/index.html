@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Visualizing RDF Triples in an Engaging Way // Michael E. Nelson</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link href="" rel="alternate" type="application/rss+xml" title="Michael E. Nelson"/>
+  <link rel="shortcut icon" href="http://michaelnet.biz/img/favicon.png">
+  <link rel="stylesheet" href="http://michaelnet.biz/css/normalize.css">
+  <link rel="stylesheet" href="http://michaelnet.biz/css/main.css">
+  <link rel="stylesheet" href="http://michaelnet.biz/css/style.css">
+
+  <script src="http://michaelnet.biz/js/vendor/modernizr-2.8.3.min.js"></script>
+  
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-60902806-4', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  <meta name="generator" content="Hugo 0.21" />
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="header-container">
+  <header class="wrapper clearfix">
+    <span><a href="http://michaelnet.biz/">Michael E. Nelson</a></span>
+    <nav>
+      <button class="burger"></button>
+      <ul>
+        
+        
+        <li><a  href="/"> Home </a> </li>
+        
+        <li><a  href="/michael-e-nelson-resume-30-may-2017.pdf"> Resume </a> </li>
+        
+        <li><a  href="/post/"> Posts </a> </li>
+        
+        <li><a  href="/project/"> Projects </a> </li>
+        
+      </ul>
+    </nav>
+  </header>
+</div>
+<script src="http://michaelnet.biz/js/nav.js"></script>
+
+  <article class="wrapper">
+    <div class="sections">
+      <header>
+        <h1>Visualizing RDF Triples in an Engaging Way</h1>
+        <h2>22 Apr 2017</h2>
+        <span><a href="http://chi.anthropology.msu.edu/2017/04/visualizing-rdf-triples-in-an-engaging-way/">Original Post</a></span>
+        <br>
+        <ul> tags:
+          <li><a href="/tags/chi">chi</a> /</li>
+           tags:
+          <li><a href="/tags/heritage">heritage</a> /</li>
+           tags:
+          <li><a href="/tags/rdf">rdf</a> /</li>
+           tags:
+          <li><a href="/tags/semantic-web">semantic-web</a> /</li>
+          
+        </ul>
+      </header>
+      <section>
+        <p>The application that has taken shape since the beginning of the CHI fellowship executes queries against the British Museum’s (BM) SPARQL endpoint. The BM system returns results serialized as XML- or JSON-LD. The application updates its data store (Redux) and renders the collection of results as a simple list. This is straightforward enough. On the other hand, I’ve had to think a bit more about how to render single query results in response to user selection of any given list item.</p>
+
+<p>The basic data structure in semantic web technologies is the Resource Description Framework (RDF) triple. The triple is itself a graph, expressing a subject and an object’s relationship through a predicate. The Rosetta Stone, for instance, <a href="http://collection.britishmuseum.org/sparql?query=SELECT+*%0D%0AWHERE+%7B%0D%0A++++%3Chttp%3A%2F%2Fcollection.britishmuseum.org%2Fid%2Fobject%2FYCA62958%3E+%3Fp+%3Fo+.%0D%0A%7D+&amp;_implicit=false&amp;implicit=true&amp;_equivalent=false&amp;_form=%2Fsparql">appears as a subject in ~180 statements</a>. Given the centrality of the RDF triple in semantic web systems, it’s no surprise that a common way to represent the resource interrelationships expressed in these triples is by showing networks of nodes and edges; subjects and objects as nodes, predicates as the edges connecting them. This seems the most intuitive way to render single BM collection objects.</p>
+
+<p>RDF and the Resource Description Framework Schema (RDFS) are fundamental to the semantic web technology stack as it’s developed in the past two decades. RDFS extends the constructs defined in the RDF specification to enable kinds of expressions like generalization. While RDF does allow for classification (instance-class relationships) with the instanceOf property, the RDFS extends the framework to allow for the expression of constructs like generalization hierarchies, where a class relates to another class as its sub- or superclass, with the subClassOf and subPropertyOf properties. For an RDFS model (e.g., each version of <a href="http://www.cidoc-crm.org/sites/default/files/cidoc_crm_v5.0.4_official_release.rdfs.xml">CIDOC-CRM</a>), implementation in the Web Ontology Language (OWL – another important technology in the semantic web stack) adds formal logic to the model and thus enables automated reasoning with it.</p>
+
+<p>I’m working on using these technologies to enrich what are otherwise pretty boring network visualizations. The <a href="http://en.lodlive.it/?http://data.ontotext.com/resource/leaks/offshore-BVI">lodlive.it</a> project is a good example of visualizing data structured as RDF triples in a compelling way.</p>
+
+      </section>
+      <footer></footer>
+    </div>
+  </article>
+</div>
+<div class="footer-container">
+  <footer class="wrapper">
+    <ul>
+      <li>&copy; 2017 <a href="http://michaelnet.biz/">Michael E. Nelson</a></li>
+      <li><a href="mailto:michael.nelson@fulbrightmail.org">Email</a></li>
+      <li><a href="//linkedin.com/in/michaelnetbiz">LinkedIn</a></li>
+      <li><a href="//facebook.com/nelson.michael.eric">Facebook</a></li>
+      <li><a href="//twitter.com/xsmichaelsx">Twitter</a></li>
+      <li><a href="//github.com/michaelnetbiz">Github</a></li>
+      <li><a href="//orcid.org/0000-0002-5153-8674">Orcid</a></li>
+      <li><a href="//www.researchgate.net/profile/Michael_Nelson34">ResearchGate</a></li>
+      <li><a href="//michiganstate.academia.edu/MichaelNelson">Academia.edu</a></li>
+      <li><a href="//plus.google.com/107196584647160285558">Google+</a></li>
+    </ul>
+  </footer>
+</div>
+</body>
+</html>
+

@@ -2,11 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web 3 0 on Michael E. Nelson</title>
-    <link>http://michaelnet.biz/tags/web-3-0/index.xml</link>
+    <link>http://michaelnet.biz/tags/web-3-0/</link>
     <description>Recent content in Web 3 0 on Michael E. Nelson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://michaelnet.biz/tags/web-3-0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelnet.biz/tags/web-3-0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Glambulator</title>
+      <link>http://michaelnet.biz/project/glambulator/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/project/glambulator/</guid>
+      <description> Problem Solution [Source and Documentation] [Demo] Other Assets </description>
+    </item>
     
     <item>
       <title>Learning About Web 3.0</title>
@@ -14,32 +26,7 @@
       <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://michaelnet.biz/post/learning-about-web-3-0/</guid>
-      <description>&lt;p&gt;My project involves working with some of the technologies of the semantic web. The main idea of the semantic web (or web 3.0, and in Berners-Lee’s language the “read+write+execute” phase that will supersede the “read-only” phase of web 1.0 and the “read+write” phase of web 2.0) is for web services to reason automatically about resources. Robust descriptions enable the linking of heterogeneous resources. Semantic web services commonly use the Resource Description Framework (RDF) to represent entities in terms of subjects, objects, and predicates.&lt;/p&gt;
-
-&lt;p&gt;Take the hyperlink, for instance: where a classic hyperlink connects one document on the web to another, web 3.0 proposes to link data within a document to data within another. This proposition depends on data modeling work: specifying a domain’s things as categories (classification), identifying supersets and subsets of its classes (generalization), and specifying the part-whole relationships in which its classes participate (aggregation).&lt;/p&gt;
-
-&lt;p&gt;Where descriptions of resources are robust, we are able to build services to reason about them intelligently and automatically. Europeana, the European Union’s platform for heritage content, provides good documentation and maintains a SPARQL endpoint, which I’ve found helpful for learning about these technologies. See &lt;a href=&#34;https://vimeo.com/36752317&#34;&gt;the video I’ve posted above&lt;/a&gt; for more information.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Heritage Metadata Explorer</title>
-      <link>http://michaelnet.biz/project/heritage-metadata-explorer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://michaelnet.biz/project/heritage-metadata-explorer/</guid>
-      <description>
-
-&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
-
-&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
-
-&lt;h2 id=&#34;source-and-documentation&#34;&gt;[Source and Documentation]&lt;/h2&gt;
-
-&lt;h2 id=&#34;demo&#34;&gt;[Demo]&lt;/h2&gt;
-
-&lt;h2 id=&#34;other-assets&#34;&gt;Other Assets&lt;/h2&gt;
-</description>
+      <description>My project involves working with some of the technologies of the semantic web. The main idea of the semantic web (or web 3.0, and in Berners-Lee’s language the “read+write+execute” phase that will supersede the “read-only” phase of web 1.0 and the “read+write” phase of web 2.0) is for web services to reason automatically about resources. Robust descriptions enable the linking of heterogeneous resources. Semantic web services commonly use the Resource Description Framework (RDF) to represent entities in terms of subjects, objects, and predicates.</description>
     </item>
     
   </channel>

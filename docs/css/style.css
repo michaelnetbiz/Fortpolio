@@ -86,6 +86,21 @@ div header {
   text-align: center;
 }
 
+/* line 1, ../../sass/elements/_figure.scss */
+figure {
+  text-align: center;
+}
+
+/* line 5, ../../sass/elements/_figure.scss */
+figure img {
+  width: 50%;
+}
+
+/* line 9, ../../sass/elements/_figure.scss */
+figure figcaption {
+  text-align: center;
+}
+
 /* line 1, ../../sass/elements/_footer.scss */
 footer {
   padding: 1em 0;
@@ -301,32 +316,34 @@ pre {
 .about section {
   font-family: 'PT Serif', Georgia, sans-serif;
   font-weight: 300;
+  text-align: center;
 }
 
-/* line 28, ../../sass/components/_about.scss */
+/* line 29, ../../sass/components/_about.scss */
 .about section p {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 33, ../../sass/components/_about.scss */
+/* line 34, ../../sass/components/_about.scss */
 .about section p a {
   color: #554AAA;
 }
 
-/* line 37, ../../sass/components/_about.scss */
+/* line 38, ../../sass/components/_about.scss */
 .about section ul {
+  margin: 0 10%;
   padding-left: 0;
   text-align: left;
 }
 
-/* line 42, ../../sass/components/_about.scss */
+/* line 44, ../../sass/components/_about.scss */
 .about section ul li {
   display: list-item;
 }
 
 @media screen and (min-width: 49.75em) {
-  /* line 47, ../../sass/components/_about.scss */
+  /* line 49, ../../sass/components/_about.scss */
   .about {
     width: 80%;
     margin: auto;
@@ -505,21 +522,27 @@ pre {
 }
 
 /* line 119, ../../sass/components/_sections.scss */
+.sections header span {
+  float: none;
+  font-size: 1em;
+}
+
+/* line 124, ../../sass/components/_sections.scss */
 .sections section .list-item:hover, .sections section .list-item:focus {
   box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* line 123, ../../sass/components/_sections.scss */
+/* line 128, ../../sass/components/_sections.scss */
 .sections section .list-item span {
   color: #0f0d1e;
 }
 
-/* line 127, ../../sass/components/_sections.scss */
+/* line 132, ../../sass/components/_sections.scss */
 .sections section .list-item span:first-child {
   font-family: 'Gotham Light', Georgia, sans-serif;
 }
 
-/* line 131, ../../sass/components/_sections.scss */
+/* line 136, ../../sass/components/_sections.scss */
 .sections section .list-item span:last-child {
   display: none;
   float: right;

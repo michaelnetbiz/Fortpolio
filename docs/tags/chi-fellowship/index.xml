@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chi Fellowship on Michael E. Nelson</title>
+    <link>http://michaelnet.biz/tags/chi-fellowship/</link>
+    <description>Recent content in Chi Fellowship on Michael E. Nelson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelnet.biz/tags/chi-fellowship/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Glambu-Launch Post</title>
+      <link>http://michaelnet.biz/post/the-glambu-launch-post/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/post/the-glambu-launch-post/</guid>
+      <description>Question: What is the sum of the galleries, libraries, archives, and museums industry category‘s acronym (GLAM) and the archaic word ambulator (Noun, “One that walks about” - Lewis &amp;amp; Short, 1879)?
+Answer: Glambulator, the name of my CHI project. Glambulator has launched, and it’s available at glambulator.matrix.msu.edu/.
+ Entity Graph Tab   Glambulator is about exploring the CIDOC Conceptual Reference Model (CIDOC-CRM) and phenomena that have been annotated by it.</description>
+    </item>
+    
+    <item>
+      <title>Considering ICT-Mediated Humanities Collaboration: A Report from ACRL 2017</title>
+      <link>http://michaelnet.biz/post/considering-ict-mediated-humanities-collaboration-a-report-from-acrl-2017/</link>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/post/considering-ict-mediated-humanities-collaboration-a-report-from-acrl-2017/</guid>
+      <description>Last week I was able to attend the annual conference for the Association of College and Research Libraries (ACRL) in Baltimore (proceedings here). One talk struck me as particularly relevant to cultural heritage informatics. The authors explored humanities scholarship collaboration across institutional and disciplinary boundaries, focusing on the fifteen institutions that constitute the Humanities Without Walls (HWW) consortium (which includes Michigan State). The authors reported the themes that emerged from qualitative analysis of semi-structured interview transcripts, and represented the resultant collaboration network as a network graph with dimensions including team-size per project, number of grant awardees per institution, and number of connections between projects and institutions.</description>
+    </item>
+    
+    <item>
+      <title>Querying the Collection of the British Museum for Propositional Objects</title>
+      <link>http://michaelnet.biz/post/querying-the-collection-of-the-british-museum-for-propositional-objects/</link>
+      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/post/querying-the-collection-of-the-british-museum-for-propositional-objects/</guid>
+      <description>As I mentioned last month, one of the ideas of the semantic web is to render data from specialized, disparate sources comparable, and this is achieved by developing specifications like CIDOC-CRM. One implementation of CIDOC-CRM is the Erlangen CRM. Heritage institutions like the British Museum use implementations like this to organize their collection. It is implemented in the Web Ontology Language (OWL) and can be browsed in an ontology explorer like Protégé or by just reading the XML.</description>
+    </item>
+    
+    <item>
+      <title>Learning About Web 3.0</title>
+      <link>http://michaelnet.biz/post/learning-about-web-3-0/</link>
+      <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/post/learning-about-web-3-0/</guid>
+      <description>My project involves working with some of the technologies of the semantic web. The main idea of the semantic web (or web 3.0, and in Berners-Lee’s language the “read+write+execute” phase that will supersede the “read-only” phase of web 1.0 and the “read+write” phase of web 2.0) is for web services to reason automatically about resources. Robust descriptions enable the linking of heterogeneous resources. Semantic web services commonly use the Resource Description Framework (RDF) to represent entities in terms of subjects, objects, and predicates.</description>
+    </item>
+    
+    <item>
+      <title>Clarifying My Project’s Topic</title>
+      <link>http://michaelnet.biz/post/clarifying-my-projects-topic/</link>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/post/clarifying-my-projects-topic/</guid>
+      <description>My project will consist of a deep dive into the representation of heritage objects in CIDOC-CRM and will result in an interactive presentation of case analyses of CIDOC-CRM object descriptions.
+I’m interested in exploring the operations through which an object comes to be recognized as a heritage object. In documenting the why of the project, I’ve dabbled with the term &amp;lsquo;heritage industry&amp;rsquo;. But while I’ve found The heritage industry: Britain in a climate of decline (Hewison, 1987) pretty compelling, I’m not interested in what seems more like a particular argument’s foil to history, well executed, than a term with much analytic purchase here.</description>
+    </item>
+    
+    <item>
+      <title>ICTs and Indigenous Knowledges</title>
+      <link>http://michaelnet.biz/post/icts-and-indigenous-knowledges/</link>
+      <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/post/icts-and-indigenous-knowledges/</guid>
+      <description>This past Friday, we talked about licensing. As I’ve mentioned before, I’m interested in information and communication technologies (ICTs) and traditional knowledges (TK), which are the product of the intricate relationships between indigenous peoples and the specific places in which they have lived or used to live for long periods of time. Questions of licensing that are specific to this class of knowledge – the question of who has the right to access, use, modify, distribute, profit from, or otherwise relate to some piece of TK – are warranted by the historically antagonistic relationship toward TK of modernization projects like residential school systems for indigenous children, or the removal of artifacts for sale, analysis, and display in museums or private collections.</description>
+    </item>
+    
+    <item>
+      <title>Who’s Paying for class=”fa fa-home”?</title>
+      <link>http://michaelnet.biz/post/whos-paying-for-classfa-fa-home/</link>
+      <pubDate>Sat, 08 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/post/whos-paying-for-classfa-fa-home/</guid>
+      <description>I recently switched to one of these wireless service providers with a sort of pay-as-you-go model, and so now I’m (trying to be?) thriftier when it comes to the data I consume. Earlier today, as we wrapped up our cultural heritage project pitch websites and learned about mapping tools, the option I was recently given on my phone by the Google Maps application to download my area for navigation offline prompted me to take a step back and think about my team’s project website in terms of design choices, especially with regard to the cost of accessing it.</description>
+    </item>
+    
+    <item>
+      <title>Presenting Michael!</title>
+      <link>http://michaelnet.biz/post/presenting-michael/</link>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/post/presenting-michael/</guid>
+      <description>Hi there, CHI community. I’m Michael Nelson, and I’m really excited to be a part of this cohort. I’m in my second year of the master’s program in Media and Information at MSU’s Department of Media and Information. After watching movies and eating food, I’m most interested in exploring scholarly communication and knowledge management. I’m currently exploring those latter two topics in research for my master’s thesis and in other projects at my college.</description>
+    </item>
+    
+  </channel>
+</rss>

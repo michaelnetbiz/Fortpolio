@@ -3,7 +3,7 @@ date = "2016-12-10"
 highlight = true
 math = false
 external_link = "http://chi.anthropology.msu.edu/2016/12/clarifying-my-projects-topic/"
-tags = ["chi", "heritage"]
+tags = ["chi-fellowship", "heritage"]
 title = "Clarifying My Project’s Topic"
 summary = ""
 +++

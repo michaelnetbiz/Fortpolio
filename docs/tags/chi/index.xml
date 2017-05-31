@@ -2,164 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chi on Michael E. Nelson</title>
-    <link>http://michaelnet.biz/tags/chi/index.xml</link>
+    <link>http://michaelnet.biz/tags/chi/</link>
     <description>Recent content in Chi on Michael E. Nelson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://michaelnet.biz/tags/chi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://michaelnet.biz/tags/chi/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Considering ICT-Mediated Humanities Collaboration: A Report from ACRL 2017</title>
-      <link>http://michaelnet.biz/post/considering-ict-mediated-humanities-collaboration-a-report-from-acrl-2017/</link>
-      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      <title>Visualizing RDF Triples in an Engaging Way</title>
+      <link>http://michaelnet.biz/post/visualizing-rdf-triples-in-an-engaging-way/</link>
+      <pubDate>Sat, 22 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://michaelnet.biz/post/considering-ict-mediated-humanities-collaboration-a-report-from-acrl-2017/</guid>
-      <description>&lt;p&gt;Last week I was able to attend the annual conference for the Association of College and Research Libraries (ACRL) in Baltimore (proceedings &lt;a href=&#34;http://www.ala.org/acrl/conferences/acrl2017/papers&#34;&gt;here&lt;/a&gt;). &lt;a href=&#34;http://www.ala.org/acrl/sites/ala.org.acrl/files/content/conferences/confsandpreconfs/2017/HumanitiesCollaborationsandResearchPractices.pdf&#34;&gt;One talk&lt;/a&gt; struck me as particularly relevant to cultural heritage informatics. The authors explored humanities scholarship collaboration across institutional and disciplinary boundaries, focusing on the fifteen institutions that constitute the &lt;a href=&#34;http://www.humanitieswithoutwalls.illinois.edu/index.html&#34;&gt;Humanities Without Walls (HWW) consortium&lt;/a&gt; (which includes Michigan State). The authors reported the themes that emerged from qualitative analysis of semi-structured interview transcripts, and represented the resultant collaboration network as a network graph with dimensions including team-size per project, number of grant awardees per institution, and number of connections between projects and institutions.&lt;/p&gt;
-
-&lt;p&gt;The authors also advised of ways to engage with these innovative networks of humanities scholarship collaboration. For the Adaptive Research Practices theme that emerged from the analysis, the authors advised intervening at the level of student-instructor interaction. This fellowship’s emphasis on learning techniques for creating and maintaining web content represents this sort of engagement. Regarding the Networks of Scholarship theme identified in the qualitative data analysis, the authors recommended that information professionals support places for scholars to interact across conventional boundaries, for instance in research centers, communities of practice, or other hybrid organizational forms.&lt;/p&gt;
-
-&lt;p&gt;Finally, the authors encouraged information professionals to foster experimentation in novel forms of Scholarly Communication and Dissemination.  Significant, but certainly not the only developments include the use of blogs and personal websites for scholarly communication and dissemination, the use of platforms like GitHub, GitBook, or Authorea, and the use of networks like SSRN, Mendeley, Zotero, or ResearchGate.&lt;/p&gt;
-
-&lt;p&gt;Considering electronically-mediated scholarly collaboration, one challenge to effectiveness is the very knowledge in which researchers trade. Codifying knowledge that is part of a rapidly evolving domain is a problem particularly for the knowledge work of distributed research teams, whatever the branch of the sciences (&lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.1083-6101.2007.00343.x/full&#34;&gt;Bos et al., 2007&lt;/a&gt;). On this point, researchers in computer-supported cooperative work (CSCW) have advanced our understanding of the need to enrich virtual knowledge-work-spaces, suggesting features like document annotation or authorship tracking to produce affordances like knowledge evolution monitoring (&lt;a href=&#34;http://dl.acm.org/citation.cfm?doid=2151163.2151169&#34;&gt;Malhotra and Majchrak, 2012&lt;/a&gt;). One particularly exciting development that seems to address this obstacle to collaboration is content that is published on the web not only for dissemination but, even more, to elicit wider contribution. In this respect, these projects (perhaps a subset of what have been called virtual research environments?) constitute something more than scholarly communication/dissemination. Examples of this kind of project include the Modes of Existence project (&lt;a href=&#34;http://modesofexistence.org/&#34;&gt;site&lt;/a&gt; / &lt;a href=&#34;https://github.com/medialab/aime-core0&#34;&gt;source&lt;/a&gt;), and the Platform for Experimental and Collaborative Ethnography, which grew out of the Asthma Files project (&lt;a href=&#34;http://theasthmafiles.org/&#34;&gt;site&lt;/a&gt; / &lt;a href=&#34;https://github.com/PECE-project/drupal-pece&#34;&gt;source&lt;/a&gt;).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Querying the Collection of the British Museum for Propositional Objects</title>
-      <link>http://michaelnet.biz/post/querying-the-collection-of-the-british-museum-for-propositional-objects/</link>
-      <pubDate>Sat, 18 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://michaelnet.biz/post/querying-the-collection-of-the-british-museum-for-propositional-objects/</guid>
-      <description>&lt;p&gt;As I mentioned last month, one of the ideas of the semantic web is to render data from specialized, disparate sources comparable, and this is achieved by developing specifications like CIDOC-CRM. One implementation of CIDOC-CRM is the &lt;a href=&#34;http://erlangen-crm.org/&#34;&gt;Erlangen CRM&lt;/a&gt;. Heritage institutions like the British Museum use implementations like this to organize their collection. It is implemented in the Web Ontology Language (OWL) and can be browsed in an ontology explorer like &lt;a href=&#34;http://protege.stanford.edu/&#34;&gt;Protégé&lt;/a&gt; or by just reading the XML.&lt;/p&gt;
-
-&lt;p&gt;The CIDOC-CRM includes a class called &lt;a href=&#34;http://new.cidoc-crm.org/Entity/e28-conceptual-object/version-6.2&#34;&gt;Conceptual Object&lt;/a&gt;. Conceptual Object is a subclass of &lt;a href=&#34;http://new.cidoc-crm.org/entity/e71-man-made-thing/version-6.2&#34;&gt;Man-Made Thing&lt;/a&gt; and a superclass of both &lt;a href=&#34;http://new.cidoc-crm.org/Entity/e89-propositional-object/version-6.2&#34;&gt;Propositional Object&lt;/a&gt; and &lt;a href=&#34;http://new.cidoc-crm.org/Entity/e90-symbolic-object/version-6.2&#34;&gt;Symbolic Object&lt;/a&gt;. I’m particularly interested in exploring the Propositional Object class, which includes&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“immaterial items, including but not limited to stories, plots, procedural prescriptions, algorithms, laws of physics or images that are, or represent in some sense, sets of propositions about real or imaginary things and that are documented as single units or serve as topic of discourse” (CIDOC-CRM, n.d.).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;According to the documentation, a set of exemplary instances of this class are the common plot points of Kurosawa’s The Seven Samurai and Sturges’ The Magnificent Seven. A query to a SPARQL endpoint in order to materialize that collection’s Propositional Objects might read as follows:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# declare a prefix
-# this allows us to refer to objects in the schema directly rather than by 
-  their full URI
-# e.g., in the query below, crm:E89_Propositional_Object rather than the full 
-  URI http://erlangen-crm.org/current/E89_Propositional_Object
-PREFIX crm: &amp;lt;http://erlangen-crm.org/current/&amp;gt;
-
-# specify:
-# a) the variable that the server should return (?instance)
-# b) that the server should return unique instances only (with the DISTINCT 
-  modifier)
-SELECT DISTINCT ?instance
-# specify the pattern for the server to try to match
-WHERE { 
-?instance a crm:E89_Propositional_Object 
-}
-
-# state how the response should be ordered…
-ORDER BY ?instance
-
-# and the quantity of instances to limit the response to
-LIMIT 100
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Applying this query to the British Museum’s SPARQL endpoint returns 100 instances of Propositional Object, including &lt;a href=&#34;http://collection.britishmuseum.org/id/bibliographic-series/Afghan-Studies&#34;&gt;Afghan Studies&lt;/a&gt;, &lt;a href=&#34;http://collection.britishmuseum.org/id/bibliographic-series/Annual-Reports&#34;&gt;Annual Reports&lt;/a&gt;, and &lt;a href=&#34;http://collection.britishmuseum.org/id/bibliographic-series/Annual-Review-of-the-Royal-Inscriptions-of-Mesopotamia-Project&#34;&gt;Annual Review of the Royal Inscriptions of Mesopotamia Project&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Find the British Museum’s SPARQL endpoint and some helpful examples &lt;a href=&#34;http://collection.britishmuseum.org/sparql&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Learning About Web 3.0</title>
-      <link>http://michaelnet.biz/post/learning-about-web-3-0/</link>
-      <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://michaelnet.biz/post/learning-about-web-3-0/</guid>
-      <description>&lt;p&gt;My project involves working with some of the technologies of the semantic web. The main idea of the semantic web (or web 3.0, and in Berners-Lee’s language the “read+write+execute” phase that will supersede the “read-only” phase of web 1.0 and the “read+write” phase of web 2.0) is for web services to reason automatically about resources. Robust descriptions enable the linking of heterogeneous resources. Semantic web services commonly use the Resource Description Framework (RDF) to represent entities in terms of subjects, objects, and predicates.&lt;/p&gt;
-
-&lt;p&gt;Take the hyperlink, for instance: where a classic hyperlink connects one document on the web to another, web 3.0 proposes to link data within a document to data within another. This proposition depends on data modeling work: specifying a domain’s things as categories (classification), identifying supersets and subsets of its classes (generalization), and specifying the part-whole relationships in which its classes participate (aggregation).&lt;/p&gt;
-
-&lt;p&gt;Where descriptions of resources are robust, we are able to build services to reason about them intelligently and automatically. Europeana, the European Union’s platform for heritage content, provides good documentation and maintains a SPARQL endpoint, which I’ve found helpful for learning about these technologies. See &lt;a href=&#34;https://vimeo.com/36752317&#34;&gt;the video I’ve posted above&lt;/a&gt; for more information.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Clarifying My Project’s Topic</title>
-      <link>http://michaelnet.biz/post/clarifying-my-projects-topic/</link>
-      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://michaelnet.biz/post/clarifying-my-projects-topic/</guid>
-      <description>&lt;p&gt;My project will consist of a deep dive into the representation of heritage objects in &lt;a href=&#34;http://cidoc-crm.org/&#34;&gt;CIDOC-CRM&lt;/a&gt; and will result in an interactive presentation of case analyses of CIDOC-CRM object descriptions.&lt;/p&gt;
-
-&lt;p&gt;I’m interested in exploring the operations through which an object comes to be recognized as a heritage object. In documenting the why of the project, I’ve dabbled with the term &amp;lsquo;heritage industry&amp;rsquo;. But while I’ve found &lt;a href=&#34;http://www.open.edu/openlearn/history-the-arts/history/heritage/what-heritage/content-section-3.1&#34;&gt;The heritage industry: Britain in a climate of decline&lt;/a&gt; (Hewison, 1987) pretty compelling, I’m not interested in what seems more like a particular argument’s foil to history, well executed, than a term with much analytic purchase here. It will be more productive to say that I’m interested in what happens in the space described in the &lt;a href=&#34;http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27&#34;&gt;International Standard Industrial Classification&lt;/a&gt; (ISIC), most recently in &lt;a href=&#34;http://unstats.un.org/unsd/cr/registry/regcs.asp?Cl=27&amp;amp;Lg=1&amp;amp;Co=91&#34;&gt;ISIC Revision 4 Section R Division 91&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;This division includes activities of libraries and archives; the operation of museums of all kinds, botanical and zoological gardens; the operation of historical sites and nature reserves activities. It also includes the preservation and exhibition of objects, sites and natural wonders of historical, cultural or educational interest (e.g. world heritage sites, etc).&lt;/p&gt;
-
-&lt;p&gt;This division excludes sports, amusement and recreation activities, such as the operation of bathing beaches and recreation parks (see division 93).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Moving forward, I’ll need to do some reading about the extent to which activities in this space can be described in concepts like between-firm value networks and within-firm value chains composed of business processes, not to mention the very concept of the firm, and whether organizations acting in this space can even be described as such.&lt;/p&gt;
-
-&lt;p&gt;I’m thinking this project will involve almost as much conceptual plumbing work as it will design and development. I’m not unhappy about that, but it should go without saying that suggestions on literature to check out will be welcome!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ICTs and Indigenous Knowledges</title>
-      <link>http://michaelnet.biz/post/icts-and-indigenous-knowledges/</link>
-      <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://michaelnet.biz/post/icts-and-indigenous-knowledges/</guid>
-      <description>&lt;p&gt;This past Friday, we talked about licensing. As I’ve mentioned before, I’m interested in information and communication technologies (ICTs) and traditional knowledges (TK), which are the product of the intricate relationships between indigenous peoples and the specific places in which they have lived or used to live for long periods of time. Questions of licensing that are specific to this class of knowledge – the question of who has the right to access, use, modify, distribute, profit from, or otherwise relate to some piece of TK – are warranted by the historically antagonistic relationship toward TK of modernization projects like residential school systems for indigenous children, or the removal of artifacts for sale, analysis, and display in museums or private collections.&lt;/p&gt;
-
-&lt;p&gt;I’d argue that at this point in time, ICTs and traditional knowledges relate in at least three ways:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;ICTs can be vehicles for the publication of TK artifacts, whether for journalistic or scholarly purposes. This is afforded by the internet and web content management systems (CMS) like the domain-specific &lt;a href=&#34;http://omeka.org/&#34;&gt;Omeka&lt;/a&gt; or more generically WordPress and Drupal. See, for instance, the project &lt;a href=&#34;http://indigenousnewengland.com/geolocation/map/browse&#34;&gt;“Dawnland Voices: Writings of Indigenous New England”&lt;/a&gt; (Omeka) or &lt;a href=&#34;http://indiancountrytodaymedianetwork.com/&#34;&gt;Indian Country Today Media Network&lt;/a&gt; (Drupal).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;ICTs can be instruments for the organization of TK. Knowledge objects like place names, demonyms, and flora and fauna names have historically been a) subordinated to western names, and b) relegated to arcane corners of the Library of Congress (LOC) or Dewey Decimal subject headings (“Mythology, Other”). The &lt;a href=&#34;http://xwi7xwa.library.ubc.ca/&#34;&gt;Xwi7xwa subject headings&lt;/a&gt; developed by the Library of the University of British Columbia is a widely cited positive example of the organizational role of ICTs in TK. The modeling of Andean craftsmanship documented in &lt;a href=&#34;http://dl.acm.org/citation.cfm?doid=2700427&#34;&gt;Brownlow et al. (2015)&lt;/a&gt; is a good example of ontological organization of TK.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;ICTs as aides in the application of TK alongside (if not as integral than at least as supplementary to) professional knowledges, as in the domain of natural resource management. An example of this might be &lt;a href=&#34;http://www.mikmawconservation.ca/sar-database/&#34;&gt;web resources documenting species names&lt;/a&gt; and associations between a species and an environment, habitat, or another species (as a reference, for instance, in administering and complying to Canada’s Species at Risk Act). Given the &lt;a href=&#34;http://www.hup.harvard.edu/catalog.php?isbn=9780674025684&#34;&gt;history of extracting TK&lt;/a&gt;, provisioning such a web resource would need to involve careful consideration of the problem of TK licensing; the problem of whether and how to provide for more sensitive items (e.g., information about the associations between a given species and uses such as medicinal; food and beverage; technology, arts and crafts; and social or religious rites).&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The problem of &lt;a href=&#34;http://www.sfu.ca/ipinch/project-components/community-based-initiatives/special-initiative-traditional-knowledge-licensing-an/&#34;&gt;providing and consuming rights to use, distribute, modify, and otherwise relate to TK&lt;/a&gt; is present in each of these configurations between ICTs and TK. Diving into data modeling this semester, with a class on enterprise database systems at the business college, I’m not surprised to find myself thinking about these topics as I continue to plan my project for this fellowship.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Who’s Paying for class=”fa fa-home”?</title>
-      <link>http://michaelnet.biz/post/whos-paying-for-classfa-fa-home/</link>
-      <pubDate>Sat, 08 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://michaelnet.biz/post/whos-paying-for-classfa-fa-home/</guid>
-      <description>&lt;p&gt;I recently switched to one of these wireless service providers with a sort of pay-as-you-go model, and so now I’m (trying to be?) thriftier when it comes to the data I consume. Earlier today, as we wrapped up our cultural heritage project pitch websites and learned about mapping tools, the option I was recently given on my phone by the Google Maps application to download my area for navigation offline prompted me to take a step back and think about my team’s project website in terms of design choices, especially with regard to the cost of accessing it.&lt;/p&gt;
-
-&lt;p&gt;Providing some context: for the cultural heritage project, we thought of a smartphone application repackaging the audio tour mp3s at Stockholm’s Vasa Museum, currently available on &lt;a href=&#34;http://www.vasamuseet.se/en&#34;&gt;their website&lt;/a&gt;, in order to streamline visitors’ audio tour experience. Beyond thinking about the means by which end-users would get ahold of the application (i.e., by streaming the audio, downloading all mp3s at once, or downloading them one by one during a tour), we did not get too much into the details of implementation, but &lt;a href=&#34;https://bijanisa.github.io/vasa-redux&#34;&gt;the project pitch site&lt;/a&gt; can serve as a kind of placeholder for thinking about the implementation of cultural heritage projects.&lt;/p&gt;
-
-&lt;p&gt;First, &lt;a href=&#34;https://developers.google.com/web/tools/chrome-devtools/network-performance/resource-loading&#34;&gt;the networking section of the Google Chrome developer tools&lt;/a&gt; provided some useful information about our project site. At its root, our site weighed 6.4 MB, and took 5.26 seconds to load on my home wireless network. The images, alone, accounted for 6.3 of the 6.4 MB. The larger one of the two images (4.3 MB) is hosted with GitHub here in the U.S. and took 513 milliseconds for the browser to retrieve; the smaller one (2.0 MB) took tens times as long (5.14 seconds) to retrieve from its server in Stockholm. Then, using Xcode’s Network Link Conditioner to simulate full network throughput and a latency of 500 milliseconds (&lt;a href=&#34;http://compnetworking.about.com/od/speedtests/a/network_latency.htm&#34;&gt;about the latency of a satellite connection&lt;/a&gt;), I found that our site took 40.58 seconds to fully load in a browser in those conditions.&lt;/p&gt;
-
-&lt;p&gt;Our site uses Twitter’s Bootstrap framework, which is especially useful for building sites that respond to a device screen’s resolution. But the Bootstrap stylesheet alone, gzipped and minified, comes in at a relatively heavy 23.9 KB (cf. other &lt;a href=&#34;https://en.wikipedia.org/wiki/CSS_frameworks&#34;&gt;CSS&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks&#34;&gt;JavaScript&lt;/a&gt; frameworks). To echo Ethan’s comments earlier today, Bootstrap is powerful, but to its power comes at a cost. Responsible use of client-side frameworks like Font Awesome or Bootstrap, and assets like the large images we used on our project pitch site means also accounting for that kind of cost. While this is all a bit artificial, since I’m evaluating a site that was not intended for production, a visitor from, say, &lt;a href=&#34;https://devchat.tv/js-jabber/114-jsj-asynchronous-ui-and-non-blocking-interactions-with-elliott-kember&#34;&gt;New Zealand&lt;/a&gt;, would likely be happier if the site were designed with an understanding of conditions further from the internet backbone.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Presenting Michael!</title>
-      <link>http://michaelnet.biz/post/presenting-michael/</link>
-      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://michaelnet.biz/post/presenting-michael/</guid>
-      <description>&lt;p&gt;Hi there, CHI community. I’m Michael Nelson, and I’m really excited to be a part of this cohort. I’m in my second year of the master’s program in Media and Information at MSU’s Department of Media and Information. After watching movies and eating food, I’m most interested in exploring scholarly communication and knowledge management. I’m currently exploring those latter two topics in research for my master’s thesis and in other projects at my &lt;a href=&#34;http://cas.msu.edu/&#34;&gt;college&lt;/a&gt;. I also enjoy project-based work on these topics, as I found this past summer working at the &lt;a href=&#34;http://www.icpsr.umich.edu/&#34;&gt;Inter-university Consortium for Political and Social Research&lt;/a&gt; as part of the University of Michigan iSchool’s &lt;a href=&#34;https://www.si.umich.edu/research/research-experiences-masters-students&#34;&gt;Research Experience for Master’s Students&lt;/a&gt; program.&lt;/p&gt;
-
-&lt;p&gt;In short, I’m enthusiastic about these topics both as a researcher and as a practitioner.&lt;/p&gt;
-
-&lt;p&gt;Right now, I’m thinking my project might involve following up on some coursework I’ve done in the field of information and communication technologies (ICTs) for development (the field commonly known as ICTD or ICT4D). I’m especially interested in ICTD projects that have been applied in the context of indigenous knowledges.&lt;/p&gt;
-
-&lt;p&gt;My interests are informed by the work I did as an undergraduate and the work I’ve done since then. Studying history at North Park University in Chicago, I became especially interested in knowledge production, specifically knowledge in the human sciences. Then, the ups and downs of working at a startup investment fund and subsequently at a Chicago high school during the years between undergraduate and graduate study spurred my interest in returning to school in the domain of information science.&lt;/p&gt;
-
-&lt;p&gt;Looking forward to collaborating with and learning from other Fellows this year, and also to discussing all that right here on this blog with the CHI community!&lt;/p&gt;
-</description>
+      <guid>http://michaelnet.biz/post/visualizing-rdf-triples-in-an-engaging-way/</guid>
+      <description>The application that has taken shape since the beginning of the CHI fellowship executes queries against the British Museum’s (BM) SPARQL endpoint. The BM system returns results serialized as XML- or JSON-LD. The application updates its data store (Redux) and renders the collection of results as a simple list. This is straightforward enough. On the other hand, I’ve had to think a bit more about how to render single query results in response to user selection of any given list item.</description>
     </item>
     
   </channel>
