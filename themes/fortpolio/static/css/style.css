@@ -522,27 +522,34 @@ pre {
 }
 
 /* line 119, ../../sass/components/_sections.scss */
+.sections section .list-item img {
+  float: right;
+  padding: 1em;
+  width: 1em;
+}
+
+/* line 125, ../../sass/components/_sections.scss */
 .sections header span {
   float: none;
   font-size: 1em;
 }
 
-/* line 124, ../../sass/components/_sections.scss */
+/* line 130, ../../sass/components/_sections.scss */
 .sections section .list-item:hover, .sections section .list-item:focus {
   box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* line 128, ../../sass/components/_sections.scss */
+/* line 134, ../../sass/components/_sections.scss */
 .sections section .list-item span {
   color: #0f0d1e;
 }
 
-/* line 132, ../../sass/components/_sections.scss */
+/* line 138, ../../sass/components/_sections.scss */
 .sections section .list-item span:first-child {
   font-family: 'Gotham Light', Georgia, sans-serif;
 }
 
-/* line 136, ../../sass/components/_sections.scss */
+/* line 142, ../../sass/components/_sections.scss */
 .sections section .list-item span:last-child {
   display: none;
   float: right;
