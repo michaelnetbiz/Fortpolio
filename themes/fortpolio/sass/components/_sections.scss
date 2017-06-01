@@ -117,9 +117,13 @@
 }
 
 .sections section .list-item img {
-  float: right;
-  padding: 1em;
-  width: 1em;
+  display: none;
+  @media screen and (min-width: 49.75em) {
+    display: block;
+    float: right;
+    padding: 1em;
+    width: 1em;
+  }
 }
 
 .sections header span {
