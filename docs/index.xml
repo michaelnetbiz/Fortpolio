@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Glambulator</title>
-      <link>http://michaelnet.biz/project/glambulator/</link>
+      <title>Exploring Cultural Heritage Documentation with Glambulator</title>
+      <link>http://michaelnet.biz/project/exploring-cultural-heritage-documentation-with-glambulator/</link>
       <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://michaelnet.biz/project/glambulator/</guid>
+      <guid>http://michaelnet.biz/project/exploring-cultural-heritage-documentation-with-glambulator/</guid>
       <description> Problem Solution [Source and Documentation] [Demo] Other Assets </description>
     </item>
     
@@ -105,7 +105,7 @@ I’m interested in exploring the operations through which an object comes to be
     </item>
     
     <item>
-      <title>The Future of Data-Related Publication (with ICPSR and the iSchool at the University of Michigan)</title>
+      <title>The Future of Data-Related Publication</title>
       <link>http://michaelnet.biz/project/the-future-of-data-related-publication/</link>
       <pubDate>Mon, 19 Sep 2016 00:00:00 +0000</pubDate>
       
@@ -119,6 +119,15 @@ I’m interested in exploring the operations through which an object comes to be
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://michaelnet.biz/project/observing-consumer-behavior-on-instagram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Observing Consumer Behavior on Instagram</title>
+      <link>http://michaelnet.biz/project/the-changing-character-of-digital-divides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://michaelnet.biz/project/the-changing-character-of-digital-divides/</guid>
       <description></description>
     </item>
     
