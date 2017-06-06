@@ -8,8 +8,9 @@
         <h2>{{ .Date.Format "2 Jan 2006" }}</h2>
         <span><a href="{{.Params.external_link}}">Original Post</a></span>
         <br>
-        <ul>{{ range .Params.tags }} tags:
-          <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> /</li>
+        tags:
+        <ul>{{ range .Params.tags }}
+          <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
           {{ end }}
         </ul>
       </header>
