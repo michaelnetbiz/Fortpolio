@@ -1,4 +1,3 @@
-# TODO: fix https gh-pages problem
 baseURL = "http://michaelnet.biz/"
 enableEmoji = true
 googleAnalytics = "UA-60902806-4"
@@ -21,5 +20,5 @@ SectionPagesMenu = "main"
 
 [[menu.main]]
   name = "Resume"
-  url = "/michael-e-nelson-resume-30-may-2017.pdf"
+  url = "/michael-e-nelson-resume-06-jun-2017.pdf"
   weight = 2
