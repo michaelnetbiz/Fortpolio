@@ -14,33 +14,44 @@
   font-family: "PT Serif";
   src: url(http://michaelnet.biz/fonts/ptserif/pt-serif-v8-latin-regular.woff) format('woff');
 }
-/* line 1, ../../sass/elements/_article.scss */
+/* line 1, ../../styles/elements/_article.scss */
 article section {
-  font-family: 'PT Serif', Georgia, sans-serif;
+  font-family: 'PT Serif', Georgia, serif;
   font-weight: 300;
 }
 
-/* line 6, ../../sass/elements/_article.scss */
+/* line 6, ../../styles/elements/_article.scss */
 article section h4 {
   padding-left: 2%;
 }
 
-/* line 10, ../../sass/elements/_article.scss */
-article header {
-  font-family: 'Gotham Light', sans-serif;
+/* line 10, ../../styles/elements/_article.scss */
+article .sections header {
+  font-family: 'PT Serif', Georgia, serif;
 }
 
-/* line 14, ../../sass/elements/_article.scss */
-article header p {
+/* line 14, ../../styles/elements/_article.scss */
+article .sections header h1 {
+  font-family: 'PT Serif', Georgia, serif;
+}
+
+/* line 18, ../../styles/elements/_article.scss */
+article .sections header h2 {
+  font-family: 'PT Serif', Georgia, serif;
   font-style: italic;
 }
 
-/* line 18, ../../sass/elements/_article.scss */
-article footer {
-  font-family: 'Gotham Light', sans-serif;
+/* line 23, ../../styles/elements/_article.scss */
+article .sections header span a {
+  font-family: 'PT Serif', Georgia, serif;
 }
 
-/* line 1, ../../sass/elements/_button.scss */
+/* line 27, ../../styles/elements/_article.scss */
+article .sections footer {
+  font-family: 'PT Serif', Georgia, serif;
+}
+
+/* line 1, ../../styles/elements/_button.scss */
 button {
   border: none;
   background: center no-repeat url("../img/burger-purple.svg");
@@ -50,58 +61,58 @@ button {
   width: 2em;
 }
 
-/* line 10, ../../sass/elements/_button.scss */
+/* line 10, ../../styles/elements/_button.scss */
 button.active {
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
 }
 
 @media screen and (min-width: 20em) {
-  /* line 16, ../../sass/elements/_button.scss */
+  /* line 16, ../../styles/elements/_button.scss */
   button {
     margin: .6em .6em 1em 1em;
   }
 }
 @media screen and (min-width: 23em) {
-  /* line 22, ../../sass/elements/_button.scss */
+  /* line 22, ../../styles/elements/_button.scss */
   button {
     margin: .7em .7em 1em 1em;
   }
 }
 @media screen and (min-width: 26em) {
-  /* line 28, ../../sass/elements/_button.scss */
+  /* line 28, ../../styles/elements/_button.scss */
   button {
     margin: .8em .8em 1em 1em;
   }
 }
 @media screen and (min-width: 49.75em) {
-  /* line 35, ../../sass/elements/_button.scss */
+  /* line 35, ../../styles/elements/_button.scss */
   button {
     display: none;
   }
 }
-/* line 1, ../../sass/elements/_div.scss */
+/* line 1, ../../styles/elements/_div.scss */
 div header {
   font-family: 'Gotham Light', sans-serif;
   text-align: center;
 }
 
-/* line 1, ../../sass/elements/_figure.scss */
+/* line 1, ../../styles/elements/_figure.scss */
 figure {
   text-align: center;
 }
 
-/* line 5, ../../sass/elements/_figure.scss */
+/* line 5, ../../styles/elements/_figure.scss */
 figure img {
   width: 50%;
 }
 
-/* line 9, ../../sass/elements/_figure.scss */
+/* line 9, ../../styles/elements/_figure.scss */
 figure figcaption {
   text-align: center;
 }
 
-/* line 1, ../../sass/elements/_footer.scss */
+/* line 1, ../../styles/elements/_footer.scss */
 footer {
   padding: 1em 0;
   font-family: 'Gotham Light', sans-serif;
@@ -110,128 +121,129 @@ footer {
   text-align: center;
 }
 
-/* line 9, ../../sass/elements/_footer.scss */
+/* line 9, ../../styles/elements/_footer.scss */
 footer ul {
   display: inline-block;
   padding-left: 0;
   text-align: center;
 }
 
-/* line 15, ../../sass/elements/_footer.scss */
+/* line 15, ../../styles/elements/_footer.scss */
 footer ul li {
   display: inline;
   padding-left: 1em;
   text-align: center;
 }
 
-/* line 1, ../../sass/elements/_header.scss */
+/* line 1, ../../styles/elements/_header.scss */
 header p {
   font-size: .8em;
 }
 
-/* line 5, ../../sass/elements/_header.scss */
+/* line 5, ../../styles/elements/_header.scss */
 header span {
   font-size: 1.5em;
   font-family: 'Gotham Light', sans-serif;
   font-weight: 500;
-  margin: 0.67em 0;
+  margin: 0.825em 0;
   float: left;
 }
 
-/* line 13, ../../sass/elements/_header.scss */
+/* line 13, ../../styles/elements/_header.scss */
 header span a {
   color: #554AAA;
 }
 
-/* line 1, ../../sass/elements/_headings.scss */
+/* line 1, ../../styles/elements/_headings.scss */
 h1, h2, h3, h4, h5 {
   font-family: 'Gotham Light', sans-serif;
   font-weight: 300;
 }
 
-/* line 6, ../../sass/elements/_headings.scss */
+/* line 6, ../../styles/elements/_headings.scss */
 h1 {
   font-size: 1.75em;
 }
 
-/* line 1, ../../sass/elements/_links.scss */
+/* line 1, ../../styles/elements/_links.scss */
 a {
   color: #0f0d1e;
   text-decoration: none;
 }
 
-/* line 1, ../../sass/elements/_lists.scss */
+/* line 1, ../../styles/elements/_lists.scss */
 ul li {
   display: inline;
 }
 
-/* line 1, ../../sass/elements/_nav.scss */
+/* line 1, ../../styles/elements/_nav.scss */
 nav {
   float: right;
   font-family: 'Gotham Light', sans-serif;
   position: relative;
 }
 
-/* line 7, ../../sass/elements/_nav.scss */
+/* line 7, ../../styles/elements/_nav.scss */
 nav ul {
   float: right;
   padding-left: 0;
 }
 
-/* line 12, ../../sass/elements/_nav.scss */
+/* line 12, ../../styles/elements/_nav.scss */
 nav ul li {
   padding: .25em;
 }
 
-/* line 16, ../../sass/elements/_nav.scss */
+/* line 16, ../../styles/elements/_nav.scss */
 nav ul li a {
   color: #0f0d1e;
-  transition: 0.5s ease;
   display: inline-block;
   font-size: 1em;
+  transition: 0.5s ease;
 }
 
-/* line 23, ../../sass/elements/_nav.scss */
+/* line 23, ../../styles/elements/_nav.scss */
 nav ul li a:hover, nav ul li a:focus {
   background-color: #0f0d1e;
   color: #ffffff;
 }
 
-/* line 28, ../../sass/elements/_nav.scss */
+/* line 28, ../../styles/elements/_nav.scss */
 nav ul li a.active {
   background-color: #0f0d1e;
   color: #ffffff;
 }
 
-/* line 33, ../../sass/elements/_nav.scss */
+/* line 33, ../../styles/elements/_nav.scss */
 nav ul {
   display: none;
 }
 
 @media screen and (min-width: 49.75em) {
-  /* line 38, ../../sass/elements/_nav.scss */
+  /* line 38, ../../styles/elements/_nav.scss */
   nav ul {
     display: block;
   }
 
-  /* line 42, ../../sass/elements/_nav.scss */
+  /* line 42, ../../styles/elements/_nav.scss */
   nav ul li a {
     font-size: 1.25em;
+    padding: .25em .1825em;
   }
 
-  /* line 46, ../../sass/elements/_nav.scss */
+  /* line 47, ../../styles/elements/_nav.scss */
   nav ul li a.active {
     background-color: #554AAA;
     color: #ffffff;
   }
 
-  /* line 51, ../../sass/elements/_nav.scss */
+  /* line 52, ../../styles/elements/_nav.scss */
   nav ul li a:hover, nav ul li a:focus {
     background-color: #554AAA;
     color: #ffffff;
   }
 }
-/* line 57, ../../sass/elements/_nav.scss */
+/* line 58, ../../styles/elements/_nav.scss */
 nav ul.active {
   background-color: #0f0d1e;
   border: solid #A3D0BB 5px;
@@ -242,12 +254,12 @@ nav ul.active {
   right: 0;
 }
 
-/* line 67, ../../sass/elements/_nav.scss */
+/* line 68, ../../styles/elements/_nav.scss */
 nav ul.active li {
   width: 100%;
 }
 
-/* line 71, ../../sass/elements/_nav.scss */
+/* line 72, ../../styles/elements/_nav.scss */
 nav ul.active li a {
   transition: 0.5s ease;
   color: #ffffff;
@@ -255,30 +267,30 @@ nav ul.active li a {
   width: 100%;
 }
 
-/* line 78, ../../sass/elements/_nav.scss */
+/* line 79, ../../styles/elements/_nav.scss */
 nav ul.active li a:hover, nav ul.active li a:focus {
   color: #A3D0BB;
 }
 
-/* line 82, ../../sass/elements/_nav.scss */
+/* line 83, ../../styles/elements/_nav.scss */
 nav ul.active li a.active {
   color: #A3D0BB;
 }
 
-/* line 1, ../../sass/elements/_page.scss */
+/* line 1, ../../styles/elements/_page.scss */
 html, body {
   background-color: #ffffff;
   height: 100%;
   line-height: 1.5em;
 }
 
-/* line 1, ../../sass/elements/_pre.scss */
+/* line 1, ../../styles/elements/_pre.scss */
 pre {
   max-width: 49.75em;
   padding: 1em 2em;
 }
 
-/* line 1, ../../sass/objects/_wrappers.scss */
+/* line 1, ../../styles/objects/_wrappers.scss */
 .wrapper {
   margin: auto;
   max-width: 69em;
@@ -286,119 +298,119 @@ pre {
   width: 90%;
 }
 
-/* line 1, ../../sass/components/_about.scss */
+/* line 1, ../../styles/components/_about.scss */
 .about {
   width: 80%;
   margin: auto;
 }
 
-/* line 7, ../../sass/components/_about.scss */
+/* line 7, ../../styles/components/_about.scss */
 .about header h1 {
   font-size: 1.25em;
 }
 
-/* line 11, ../../sass/components/_about.scss */
+/* line 11, ../../styles/components/_about.scss */
 .about header h2, .about section h2 {
   font-size: 1.15em;
 }
 
-/* line 15, ../../sass/components/_about.scss */
+/* line 15, ../../styles/components/_about.scss */
 .about header h3, .about section h3 {
   font-size: 1em;
 }
 
-/* line 19, ../../sass/components/_about.scss */
+/* line 19, ../../styles/components/_about.scss */
 .about header h4, .about section h4 {
   font-size: .9em;
 }
 
-/* line 23, ../../sass/components/_about.scss */
+/* line 23, ../../styles/components/_about.scss */
 .about section {
   font-family: 'PT Serif', Georgia, sans-serif;
   font-weight: 300;
   text-align: center;
 }
 
-/* line 29, ../../sass/components/_about.scss */
+/* line 29, ../../styles/components/_about.scss */
 .about section p {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 34, ../../sass/components/_about.scss */
+/* line 34, ../../styles/components/_about.scss */
 .about section p a {
   color: #554AAA;
 }
 
-/* line 38, ../../sass/components/_about.scss */
+/* line 38, ../../styles/components/_about.scss */
 .about section ul {
   margin: 0 10%;
   padding-left: 0;
   text-align: left;
 }
 
-/* line 44, ../../sass/components/_about.scss */
+/* line 44, ../../styles/components/_about.scss */
 .about section ul li {
   display: list-item;
 }
 
 @media screen and (min-width: 49.75em) {
-  /* line 49, ../../sass/components/_about.scss */
+  /* line 49, ../../styles/components/_about.scss */
   .about {
     width: 80%;
     margin: auto;
   }
 }
-/* line 1, ../../sass/components/_main.scss */
+/* line 1, ../../styles/components/_main.scss */
 .main {
   display: table;
 }
 
-/* line 5, ../../sass/components/_main.scss */
+/* line 5, ../../styles/components/_main.scss */
 .main h3 {
   padding: 0 2%;
 }
 
-/* line 9, ../../sass/components/_main.scss */
+/* line 9, ../../styles/components/_main.scss */
 .main h4 {
   padding: 0 5%;
   text-align: center;
 }
 
-/* line 14, ../../sass/components/_main.scss */
+/* line 14, ../../styles/components/_main.scss */
 .main p {
   padding: 0 5%;
 }
 
 @media screen and (min-width: 49.75em) {
-  /* line 19, ../../sass/components/_main.scss */
+  /* line 19, ../../styles/components/_main.scss */
   .main h4 {
     text-align: left;
   }
 }
-/* line 1, ../../sass/components/_sections.scss */
+/* line 1, ../../styles/components/_sections.scss */
 .sections {
   width: 100%;
   max-width: 49.75em;
 }
 
-/* line 6, ../../sass/components/_sections.scss */
+/* line 6, ../../styles/components/_sections.scss */
 .sections section {
   margin-top: 1.5em;
 }
 
-/* line 10, ../../sass/components/_sections.scss */
+/* line 10, ../../styles/components/_sections.scss */
 .sections section p a {
   color: #554AAA;
 }
 
-/* line 14, ../../sass/components/_sections.scss */
+/* line 14, ../../styles/components/_sections.scss */
 .sections article {
   border: solid #0f0d1e 1px;
   margin: 0 0 .5em 0;
 }
 
-/* line 19, ../../sass/components/_sections.scss */
+/* line 19, ../../styles/components/_sections.scss */
 .sections header {
   font-family: 'Gotham Light', sans-serif;
   text-align: center;
@@ -406,111 +418,120 @@ pre {
   display: none;
 }
 
-/* line 26, ../../sass/components/_sections.scss */
+/* line 26, ../../styles/components/_sections.scss */
 .sections header h1 {
   font-size: 1.25em;
 }
 
-/* line 30, ../../sass/components/_sections.scss */
+/* line 30, ../../styles/components/_sections.scss */
 .sections header h2, .sections section h2 {
   font-size: 1.15em;
 }
 
-/* line 34, ../../sass/components/_sections.scss */
+/* line 34, ../../styles/components/_sections.scss */
 .sections header h3, .sections section h3 {
   font-size: 1em;
 }
 
-/* line 38, ../../sass/components/_sections.scss */
+/* line 38, ../../styles/components/_sections.scss */
 .sections header h4, .sections section h4 {
   font-size: .9em;
 }
 
-/* line 42, ../../sass/components/_sections.scss */
+/* line 42, ../../styles/components/_sections.scss */
 .sections header ul {
   display: inline-block;
+  margin: 0 auto;
   padding-left: 0;
 }
 
-/* line 47, ../../sass/components/_sections.scss */
+/* line 48, ../../styles/components/_sections.scss */
 .sections header ul li {
   display: inline-block;
 }
 
+/* line 52, ../../styles/components/_sections.scss */
+.sections header ul li a {
+  background-color: #554AAA;
+  color: #ffffff;
+  padding-left: .25em;
+  padding-right: .25em;
+}
+
 @media screen and (min-width: 49.75em) {
-  /* line 52, ../../sass/components/_sections.scss */
+  /* line 60, ../../styles/components/_sections.scss */
   .sections {
     margin: auto;
     width: 100%;
   }
 
-  /* line 56, ../../sass/components/_sections.scss */
+  /* line 64, ../../styles/components/_sections.scss */
+  .sections header {
+    display: block;
+  }
+
+  /* line 67, ../../styles/components/_sections.scss */
   .sections section {
     margin-top: 0;
     padding: 0;
   }
 
-  /* line 60, ../../sass/components/_sections.scss */
+  /* line 71, ../../styles/components/_sections.scss */
   .sections section .list-item {
     background-color: #A3D0BB;
     height: 3.5em;
     overflow-x: hidden;
   }
 
-  /* line 65, ../../sass/components/_sections.scss */
+  /* line 76, ../../styles/components/_sections.scss */
   .sections section .list-item span {
     padding: 1em;
   }
 
-  /* line 68, ../../sass/components/_sections.scss */
+  /* line 79, ../../styles/components/_sections.scss */
   .sections section .list-item span:first-child {
     float: left;
     padding-right: 0;
   }
 }
 @media screen and (min-width: 54.25em) {
-  /* line 75, ../../sass/components/_sections.scss */
-  .sections header {
-    display: block;
-  }
-
-  /* line 78, ../../sass/components/_sections.scss */
+  /* line 86, ../../styles/components/_sections.scss */
   .sections section .list-item span:last-child {
     display: block !important;
     padding-left: 0;
   }
 }
-/* line 84, ../../sass/components/_sections.scss */
+/* line 92, ../../styles/components/_sections.scss */
 .sections header div {
   width: 100%;
   height: 1em;
 }
 
-/* line 89, ../../sass/components/_sections.scss */
+/* line 97, ../../styles/components/_sections.scss */
 .sections header h3 span {
   font-size: .75em;
   margin: 0;
 }
 
-/* line 94, ../../sass/components/_sections.scss */
+/* line 102, ../../styles/components/_sections.scss */
 .sections header h3 span:first-child {
   float: left;
   padding-left: 1em;
 }
 
-/* line 99, ../../sass/components/_sections.scss */
+/* line 107, ../../styles/components/_sections.scss */
 .sections header h3 span:last-child {
   float: right;
   padding-right: 1em;
 }
 
-/* line 104, ../../sass/components/_sections.scss */
+/* line 112, ../../styles/components/_sections.scss */
 .sections footer {
   font-family: 'Gotham Light', sans-serif;
   padding: 0 1%;
 }
 
-/* line 109, ../../sass/components/_sections.scss */
+/* line 117, ../../styles/components/_sections.scss */
 .sections section .list-item {
   margin-bottom: 1em;
   margin-left: auto;
@@ -521,12 +542,12 @@ pre {
   width: 100%;
 }
 
-/* line 119, ../../sass/components/_sections.scss */
+/* line 127, ../../styles/components/_sections.scss */
 .sections section .list-item img {
   display: none;
 }
 @media screen and (min-width: 49.75em) {
-  /* line 119, ../../sass/components/_sections.scss */
+  /* line 127, ../../styles/components/_sections.scss */
   .sections section .list-item img {
     display: block;
     float: right;
@@ -535,42 +556,42 @@ pre {
   }
 }
 
-/* line 129, ../../sass/components/_sections.scss */
+/* line 137, ../../styles/components/_sections.scss */
 .sections header span {
   float: none;
   font-size: 1em;
 }
 
-/* line 134, ../../sass/components/_sections.scss */
+/* line 142, ../../styles/components/_sections.scss */
 .sections section .list-item:hover, .sections section .list-item:focus {
   box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* line 138, ../../sass/components/_sections.scss */
+/* line 146, ../../styles/components/_sections.scss */
 .sections section .list-item span {
   color: #0f0d1e;
 }
 
-/* line 142, ../../sass/components/_sections.scss */
+/* line 150, ../../styles/components/_sections.scss */
 .sections section .list-item span:first-child {
   font-family: 'Gotham Light', Georgia, sans-serif;
 }
 
-/* line 146, ../../sass/components/_sections.scss */
+/* line 154, ../../styles/components/_sections.scss */
 .sections section .list-item span:last-child {
   display: none;
   float: right;
-  font-family: 'PT Serif', Georgia, sans-serif;
+  font-family: 'Gotham Light', Georgia, sans-serif;
 }
 
-/* line 1, ../../sass/alterations/_selection.scss */
+/* line 1, ../../styles/alterations/_selection.scss */
 ::-moz-selection {
   background: #554AAA;
   color: #ffffff;
   text-shadow: none;
 }
 
-/* line 7, ../../sass/alterations/_selection.scss */
+/* line 7, ../../styles/alterations/_selection.scss */
 ::selection {
   background: #554AAA;
   color: #ffffff;
