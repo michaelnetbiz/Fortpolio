@@ -15,9 +15,9 @@ nav ul li {
 
 nav ul li a {
   color: $dark-purple;
-  transition: 0.5s ease;
   display: inline-block;
   font-size: 1em;
+  transition: 0.5s ease;
 }
 
 nav ul li a:hover, nav ul li a:focus {
@@ -41,6 +41,7 @@ nav ul {
 
   nav ul li a {
     font-size: 1.25em;
+    padding: .25em .1825em;
   }
 
   nav ul li a.active {
