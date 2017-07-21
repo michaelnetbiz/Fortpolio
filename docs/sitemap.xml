@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://michaelnet.biz/project/arcgis-api-sandbox/</loc>
+    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://michaelnet.biz/project/exploring-cultural-heritage-documentation-with-glambulator/</loc>
     <lastmod>2017-05-27T00:00:00+00:00</lastmod>
   </url>
@@ -58,6 +63,12 @@
   </url>
   
   <url>
+    <loc>http://michaelnet.biz/tags/arcgis/</loc>
+    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://michaelnet.biz/tags/business-process-analysis/</loc>
     <lastmod>2016-09-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -104,6 +115,12 @@
   </url>
   
   <url>
+    <loc>http://michaelnet.biz/tags/gis/</loc>
+    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://michaelnet.biz/tags/heritage/</loc>
     <lastmod>2017-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -117,7 +134,7 @@
   
   <url>
     <loc>http://michaelnet.biz/</loc>
-    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -145,7 +162,7 @@
   
   <url>
     <loc>http://michaelnet.biz/project/</loc>
-    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -163,7 +180,7 @@
   
   <url>
     <loc>http://michaelnet.biz/tags/react-js/</loc>
-    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -192,7 +209,7 @@
   
   <url>
     <loc>http://michaelnet.biz/tags/</loc>
-    <lastmod>2016-09-19T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
