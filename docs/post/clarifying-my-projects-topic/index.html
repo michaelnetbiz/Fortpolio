@@ -14,12 +14,16 @@
 
   <script src="http://michaelnet.biz/js/vendor/modernizr-2.8.3.min.js"></script>
   
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-60902806-4', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-60902806-4', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
   <link href="http://gmpg.org/xfn/11" rel="profile">
@@ -32,7 +36,7 @@ ga('send', 'pageview');
   <meta name="keywords" content="">
   <meta name="author" content="">
 
-  <meta name="generator" content="Hugo 0.25.1" />
+  <meta name="generator" content="Hugo 0.48" />
 </head>
 <body>
 
@@ -97,7 +101,7 @@ ga('send', 'pageview');
 <div class="footer-container">
   <footer class="wrapper">
     <ul>
-      <li>&copy; 2017 <a href="http://michaelnet.biz/">Michael E. Nelson</a></li>
+      <li>&copy; 2018 <a href="http://michaelnet.biz/">Michael E. Nelson</a></li>
       <li><a href="mailto:michael.nelson@fulbrightmail.org">Email</a></li>
       <li><a href="//linkedin.com/in/michaelnetbiz">LinkedIn</a></li>
       <li><a href="//facebook.com/nelson.michael.eric">Facebook</a></li>

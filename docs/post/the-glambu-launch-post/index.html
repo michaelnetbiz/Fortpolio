@@ -14,12 +14,16 @@
 
   <script src="http://michaelnet.biz/js/vendor/modernizr-2.8.3.min.js"></script>
   
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-60902806-4', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-60902806-4', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
   <link href="http://gmpg.org/xfn/11" rel="profile">
@@ -32,7 +36,7 @@ ga('send', 'pageview');
   <meta name="keywords" content="">
   <meta name="author" content="">
 
-  <meta name="generator" content="Hugo 0.25.1" />
+  <meta name="generator" content="Hugo 0.48" />
 </head>
 <body>
 
@@ -84,7 +88,7 @@ ga('send', 'pageview');
 <p>Answer: Glambulator, the name of my CHI project. Glambulator has launched, and it’s available at <a href="http://glambulator.matrix.msu.edu/">glambulator.matrix.msu.edu/</a>.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/2017-04-22/entity-graph-tab.png" />
     
@@ -104,7 +108,7 @@ ga('send', 'pageview');
 <p>It’s possible to interact with three kinds of things in the Application: CIDOC-CRM resources, SPARQL queries, and instances returned by SPARQL queries.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/2017-04-22/tabs.png" />
     
@@ -122,7 +126,7 @@ ga('send', 'pageview');
 <p>In the Reference Model tab, which is activated by default, you can explore the classes that comprise the CIDOC-CRM and select any of these classes to query for instances of them.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/2017-04-22/reference-model-list.png" />
     
@@ -138,7 +142,7 @@ ga('send', 'pageview');
 <p>Clicking on the plus icon at the right of a resource will ready the Application for querying the British Museum’s SPARQL endpoint for instances of the selected class. Upon setting the query in this way, a message at the bottom of the screen will provide the option of executing the query immediately, by clicking a button labeled EXECUTE. The Application starts up loaded with a query that returns instances of the CIDOC-CRM class called E8_Acquisition.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/2017-04-22/app-bar.png" />
     
@@ -156,7 +160,7 @@ ga('send', 'pageview');
 <p>If the executed SPARQL query is successful (notification of a failed query or a query with empty results would appear at the bottom of the screen), you’ll be presented with the results in the SPARQL Query Results tab. Selecting a result will send a request to the British Museum’s SPARQL endpoint for the selected item. The data returned are subsequently loaded into the force-directed graph simulation, visible in the Entity Graph tab.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/2017-04-22/sparql-query-results.png" />
     
@@ -177,7 +181,7 @@ ga('send', 'pageview');
 <p>The vertex that is twice the size of all other vertices represents the item previously selected in the SPARQL Query Results tab. This root vertex is the subject of all the statements (i.e., subject-predicate-object triples) represented in the graph. Every other vertex is connected to this root vertex as either a predicate or an object. A predicate will always mediate the connection between the subject and any object. Clicking on a vertex will query the British Museum SPARQL endpoint yet again, returning subject-predicate-object triples to which the clicked vertex connects as subject.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/2017-04-22/entity-graph.png" />
     
@@ -191,7 +195,7 @@ ga('send', 'pageview');
 
 
 
-<figure >
+<figure>
     
         <img src="/img/2017-04-22/entity-group-chipset.png" />
     
@@ -207,7 +211,7 @@ ga('send', 'pageview');
 <p>At the top of the tab, Chips indicate which namespaces are present in the graph.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/2017-04-22/subject-card.png" />
     
@@ -232,7 +236,7 @@ ga('send', 'pageview');
 <div class="footer-container">
   <footer class="wrapper">
     <ul>
-      <li>&copy; 2017 <a href="http://michaelnet.biz/">Michael E. Nelson</a></li>
+      <li>&copy; 2018 <a href="http://michaelnet.biz/">Michael E. Nelson</a></li>
       <li><a href="mailto:michael.nelson@fulbrightmail.org">Email</a></li>
       <li><a href="//linkedin.com/in/michaelnetbiz">LinkedIn</a></li>
       <li><a href="//facebook.com/nelson.michael.eric">Facebook</a></li>
