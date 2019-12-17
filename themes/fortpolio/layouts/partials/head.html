@@ -6,7 +6,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
+  <link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.png">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.css">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
