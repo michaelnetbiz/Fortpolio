@@ -1,12 +1,8 @@
-#!/bin/sh
-
-DIR=$(dirname "$0")
-
-#cd $DIR/..
+#!/bin/bash
 
 if [[ $(git status -s) ]]
 then
-    echo "dirty dir - commit pending stuff"
+    echo "Stopping on account of uncommitted changes in the working directory."
     exit 1;
 fi
 
