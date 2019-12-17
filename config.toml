@@ -20,5 +20,5 @@ SectionPagesMenu = "main"
 
 [[menu.main]]
   name = "Resume"
-  url = "/michael-e-nelson-resume-06-jun-2017.pdf"
+  url = "/michael-e-nelson-resume.pdf"
   weight = 2
