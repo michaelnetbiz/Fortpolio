@@ -6,7 +6,7 @@ theme = "fortpolio"
 title = "Michael E. Nelson"
 resume = ""
 cv = ""
-publishDir = "docs"
+publishDir = "public"
 # TODO: consume GitHub API
 githubUsername = ""
 enableRobotsTXT = "true"
