@@ -10,9 +10,9 @@ publishDir = "public"
 # TODO: consume GitHub API
 githubUsername = ""
 enableRobotsTXT = "true"
-
 SectionPagesMenu = "main"
 
+[menu]
 [[menu.main]]
   name = "Home"
   url = "/"
@@ -22,3 +22,23 @@ SectionPagesMenu = "main"
   name = "Resume"
   url = "/michael-e-nelson-resume.pdf"
   weight = 2
+
+[deployment]
+[[deployment.targets]]
+name = "michaelnetbiz"
+URL = "s3://michaelnet.biz?region=us-east-1"
+
+[[deployment.matchers]]
+pattern = "^.+\\.(js|css|svg|ttf)$"
+#  Cache static assets for 1 year.
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
