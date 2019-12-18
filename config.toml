@@ -1,4 +1,4 @@
-baseURL = "http://michaelnet.biz/"
+baseURL = "/"
 enableEmoji = true
 googleAnalytics = "UA-60902806-4"
 languageCode = "en-us"
