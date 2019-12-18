@@ -36,7 +36,7 @@ resource "aws_route53_zone" "main" {
   name = var.domain_name
 }
 
-resource "aws_route53_record" "main" {
+resource "aws_route53_record" "apex" {
   zone_id = aws_route53_zone.main.id
   name    = var.domain_name
   type    = "A"
@@ -46,6 +46,13 @@ resource "aws_route53_record" "main" {
     zone_id                = aws_s3_bucket.main.hosted_zone_id
     evaluate_target_health = true
   }
+}
+
+resource "aws_route53_record" "cname" {
+  zone_id = aws_route53_zone.main.id
+  name    = "www"
+  type    = "CNAME"
+  records        = [var.domain_name]
 }
 
 output "website_endpoint" {
