@@ -7,21 +7,29 @@ resource "aws_s3_bucket" "main" {
   bucket        = var.domain_name
   force_destroy = true
   acl           = "public-read"
+  policy        = <<EOF
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::${var.domain_name}/*"
+            ]
+        }
+    ]
+}
+EOF
 
   website {
     index_document = "index.html"
     error_document = "404.html"
   }
-
-  logging {
-    target_bucket = aws_s3_bucket.logging.id
-  }
-}
-
-resource "aws_s3_bucket" "logging" {
-  bucket        = "log-${var.domain_name}"
-  acl           = "log-delivery-write"
-  force_destroy = true
 }
 
 resource "aws_route53_zone" "main" {
@@ -38,4 +46,12 @@ resource "aws_route53_record" "main" {
     zone_id                = aws_s3_bucket.main.hosted_zone_id
     evaluate_target_health = true
   }
+}
+
+output "website_endpoint" {
+  value = aws_s3_bucket.main.website_endpoint
+}
+
+output "website_domain" {
+  value = aws_s3_bucket.main.website_domain
 }
