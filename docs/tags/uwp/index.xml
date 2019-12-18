@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Uwp on Michael E. Nelson</title>
+    <title>uwp on Michael E. Nelson</title>
     <link>http://michaelnet.biz/tags/uwp/</link>
-    <description>Recent content in Uwp on Michael E. Nelson</description>
+    <description>Recent content in uwp on Michael E. Nelson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://michaelnet.biz/project/observing-consumer-behavior-on-instagram/</guid>
-      <description></description>
+      <description>A Universal Windows Platform (UWP) tablet application to simulate the Instagram user experience.</description>
     </item>
     
   </channel>

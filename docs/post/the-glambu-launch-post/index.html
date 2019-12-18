@@ -36,7 +36,7 @@ if (!doNotTrack) {
   <meta name="keywords" content="">
   <meta name="author" content="">
 
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.61.0" />
 </head>
 <body>
 
@@ -51,7 +51,7 @@ if (!doNotTrack) {
         
         <li><a  href="/"> Home </a> </li>
         
-        <li><a  href="/michael-e-nelson-resume-06-jun-2017.pdf"> Resume </a> </li>
+        <li><a  href="/michael-e-nelson-resume.pdf"> Resume </a> </li>
         
         <li><a  href="/post/"> Posts </a> </li>
         
@@ -84,148 +84,32 @@ if (!doNotTrack) {
       </header>
       <section>
         <p>Question: What is the sum of the <a href="https://en.wikipedia.org/wiki/GLAM_(industry_sector)">galleries, libraries, archives, and museums industry category</a>‘s acronym (GLAM) and the archaic word ambulator (Noun, “One that walks about” - <a href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059:entry=ambulator">Lewis &amp; Short, 1879</a>)?</p>
-
 <p>Answer: Glambulator, the name of my CHI project. Glambulator has launched, and it’s available at <a href="http://glambulator.matrix.msu.edu/">glambulator.matrix.msu.edu/</a>.</p>
-
-
-<figure>
-    
-        <img src="/img/2017-04-22/entity-graph-tab.png" />
-    
-    
-    <figcaption>
-        <h4>Entity Graph Tab</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
+<!-- raw HTML omitted -->
 <p>Glambulator is about exploring the CIDOC Conceptual Reference Model (CIDOC-CRM) and phenomena that have been annotated by it. It’s inspired by other applications that afford interaction with RDF resources at the instance level (e.g., <a href="http://en.lodlive.it/">LodLive</a>) and/or at higher levels of abstraction (e.g., <a href="http://vowl.visualdataweb.org/webvowl.html">WebVOWL</a>).</p>
-
 <p>Also – though it isn’t exactly obvious in any specific feature – Glambulator is inspired by firms that propose to bring supply-chain visibility to the <a href="http://artchain.org/">fine art trade</a>, to <a href="https://www.provenance.org/tracking_tuna_on_the_blockchain">commercial fishing</a>, or to <a href="https://blog.chronicled.com/why-fashion-insiders-should-care-about-blockchain-81e29e214765">fashion</a> by committing transactions to a distributed transaction repository – a blockchain. Information standards like controlled vocabularies, reference models, and ontologies facilitate predicating objects of subjects, making statements about phenomena in some domain. One problem that immediately comes to mind, though, is how to verify any such proposition, especially where actors stand to gain from falsifying attributes. A certificate of authenticity, or some other kind of document issued by an authority serves to verify many statements that happen in everyday life. My state-issued driver’s license, for instance, can undergird my purchase of a six-pack, showing that I have the attribute is of drinking age. Multiple actors can be involved in bringing a heritage object from one point to another, and blockchain technology itself, rather than any third party, has been proposed as a way to verify attributions.</p>
-
 <p>It’s possible to interact with three kinds of things in the Application: CIDOC-CRM resources, SPARQL queries, and instances returned by SPARQL queries.</p>
-
-
-<figure>
-    
-        <img src="/img/2017-04-22/tabs.png" />
-    
-    
-    <figcaption>
-        <h4>The tabs that contain Glambulator&#39;s main features</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
+<!-- raw HTML omitted -->
 <p>These three kinds of things correspond to the app’s three tabs: Reference Model, SPARQL Query Results, and Entity Graph.</p>
-
 <p>In the Reference Model tab, which is activated by default, you can explore the classes that comprise the CIDOC-CRM and select any of these classes to query for instances of them.</p>
-
-
-<figure>
-    
-        <img src="/img/2017-04-22/reference-model-list.png" />
-    
-    
-    <figcaption>
-        <h4>Some Reference Model resources</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
+<!-- raw HTML omitted -->
 <p>Clicking on the plus icon at the right of a resource will ready the Application for querying the British Museum’s SPARQL endpoint for instances of the selected class. Upon setting the query in this way, a message at the bottom of the screen will provide the option of executing the query immediately, by clicking a button labeled EXECUTE. The Application starts up loaded with a query that returns instances of the CIDOC-CRM class called E8_Acquisition.</p>
-
-
-<figure>
-    
-        <img src="/img/2017-04-22/app-bar.png" />
-    
-    
-    <figcaption>
-        <h4>The Application&#39;s tool bar</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
+<!-- raw HTML omitted -->
 <p>The teal-colored bar fixed to the top of the Application provides buttons for toggling the menu drawer (left side, with the hamburger) and the SPARQL query drawer (right side, with the angle brackets).The menu drawer contains information about the project, a guide to the entity group colors, licensing information, and links to documentation, the source, and resources for further reading. The SPARQL query drawer provides a way to execute the current query (at this point the Application is limited to querying for instances of a CIDOC-CRM class). Execute the query by clicking on the paper airplane icon when the drawer is toggled.</p>
-
 <p>If the executed SPARQL query is successful (notification of a failed query or a query with empty results would appear at the bottom of the screen), you’ll be presented with the results in the SPARQL Query Results tab. Selecting a result will send a request to the British Museum’s SPARQL endpoint for the selected item. The data returned are subsequently loaded into the force-directed graph simulation, visible in the Entity Graph tab.</p>
-
-
-<figure>
-    
-        <img src="/img/2017-04-22/sparql-query-results.png" />
-    
-    
-    <figcaption>
-        <h4>Items in the SPARQL Query Results tab</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
-<p>There are three basic components in the Entity Graph tab:
- 1. The graph
- 2. A set of what the <a href="https://material.io/">Material Design</a> guidelines call a Chip, each of which represents a URI group that is present in the graph
- 3. A Card for each entity that is selected (including the initial selection from the SPARQL Query Results tab).</p>
-
+<!-- raw HTML omitted -->
+<p>There are three basic components in the Entity Graph tab:</p>
+<ol>
+<li>The graph</li>
+<li>A set of what the <a href="https://material.io/">Material Design</a> guidelines call a Chip, each of which represents a URI group that is present in the graph</li>
+<li>A Card for each entity that is selected (including the initial selection from the SPARQL Query Results tab).</li>
+</ol>
 <p>The vertex that is twice the size of all other vertices represents the item previously selected in the SPARQL Query Results tab. This root vertex is the subject of all the statements (i.e., subject-predicate-object triples) represented in the graph. Every other vertex is connected to this root vertex as either a predicate or an object. A predicate will always mediate the connection between the subject and any object. Clicking on a vertex will query the British Museum SPARQL endpoint yet again, returning subject-predicate-object triples to which the clicked vertex connects as subject.</p>
-
-
-<figure>
-    
-        <img src="/img/2017-04-22/entity-graph.png" />
-    
-    
-    <figcaption>
-        <h4>The graph that represents entities and their relationships</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
-
-<figure>
-    
-        <img src="/img/2017-04-22/entity-group-chipset.png" />
-    
-    
-    <figcaption>
-        <h4>Chips for each group of URIs in the Entity Graph</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>At the top of the tab, Chips indicate which namespaces are present in the graph.</p>
-
-
-<figure>
-    
-        <img src="/img/2017-04-22/subject-card.png" />
-    
-    
-    <figcaption>
-        <h4>Cards contain a table of a subject’s objects &amp; predicates</h4>
-        
-    </figcaption>
-    
-</figure>
-
-
+<!-- raw HTML omitted -->
 <p>Upon clicking a vertex and receiving a response, a Card will appear above the graph. This Card presents the predicates and objects in a tabular format.</p>
-
 <p>At any point, open your browser’s console to take a look at the actions dispatching and updating state as you use the Application. Lastly, please feel free to contribute, open issues, etc. The README.md file in the <a href="https://github.com/michaelnetbiz/glambulator">project repository</a> contains instructions on how to run the Application locally and develop features.</p>
 
       </section>
@@ -236,7 +120,7 @@ if (!doNotTrack) {
 <div class="footer-container">
   <footer class="wrapper">
     <ul>
-      <li>&copy; 2018 <a href="http://michaelnet.biz/">Michael E. Nelson</a></li>
+      <li>&copy; 2019 <a href="http://michaelnet.biz/">Michael E. Nelson</a></li>
       <li><a href="mailto:michael.nelson@fulbrightmail.org">Email</a></li>
       <li><a href="//linkedin.com/in/michaelnetbiz">LinkedIn</a></li>
       <li><a href="//facebook.com/nelson.michael.eric">Facebook</a></li>

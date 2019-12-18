@@ -36,7 +36,7 @@ if (!doNotTrack) {
   <meta name="keywords" content="">
   <meta name="author" content="">
 
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.61.0" />
 </head>
 <body>
 
@@ -51,7 +51,7 @@ if (!doNotTrack) {
         
         <li><a  href="/"> Home </a> </li>
         
-        <li><a  href="/michael-e-nelson-resume-06-jun-2017.pdf"> Resume </a> </li>
+        <li><a  href="/michael-e-nelson-resume.pdf"> Resume </a> </li>
         
         <li><a  href="/post/"> Posts </a> </li>
         
@@ -84,15 +84,11 @@ if (!doNotTrack) {
       </header>
       <section>
         <p>As I mentioned last month, one of the ideas of the semantic web is to render data from specialized, disparate sources comparable, and this is achieved by developing specifications like CIDOC-CRM. One implementation of CIDOC-CRM is the <a href="http://erlangen-crm.org/">Erlangen CRM</a>. Heritage institutions like the British Museum use implementations like this to organize their collection. It is implemented in the Web Ontology Language (OWL) and can be browsed in an ontology explorer like <a href="http://protege.stanford.edu/">Protégé</a> or by just reading the XML.</p>
-
 <p>The CIDOC-CRM includes a class called <a href="http://new.cidoc-crm.org/Entity/e28-conceptual-object/version-6.2">Conceptual Object</a>. Conceptual Object is a subclass of <a href="http://new.cidoc-crm.org/entity/e71-man-made-thing/version-6.2">Man-Made Thing</a> and a superclass of both <a href="http://new.cidoc-crm.org/Entity/e89-propositional-object/version-6.2">Propositional Object</a> and <a href="http://new.cidoc-crm.org/Entity/e90-symbolic-object/version-6.2">Symbolic Object</a>. I’m particularly interested in exploring the Propositional Object class, which includes</p>
-
 <blockquote>
 <p>“immaterial items, including but not limited to stories, plots, procedural prescriptions, algorithms, laws of physics or images that are, or represent in some sense, sets of propositions about real or imaginary things and that are documented as single units or serve as topic of discourse” (CIDOC-CRM, n.d.).</p>
 </blockquote>
-
 <p>According to the documentation, a set of exemplary instances of this class are the common plot points of Kurosawa’s The Seven Samurai and Sturges’ The Magnificent Seven. A query to a SPARQL endpoint in order to materialize that collection’s Propositional Objects might read as follows:</p>
-
 <pre><code># declare a prefix
 # this allows us to refer to objects in the schema directly rather than by 
   their full URI
@@ -116,9 +112,7 @@ ORDER BY ?instance
 # and the quantity of instances to limit the response to
 LIMIT 100
 </code></pre>
-
 <p>Applying this query to the British Museum’s SPARQL endpoint returns 100 instances of Propositional Object, including <a href="http://collection.britishmuseum.org/id/bibliographic-series/Afghan-Studies">Afghan Studies</a>, <a href="http://collection.britishmuseum.org/id/bibliographic-series/Annual-Reports">Annual Reports</a>, and <a href="http://collection.britishmuseum.org/id/bibliographic-series/Annual-Review-of-the-Royal-Inscriptions-of-Mesopotamia-Project">Annual Review of the Royal Inscriptions of Mesopotamia Project</a>.</p>
-
 <p>Find the British Museum’s SPARQL endpoint and some helpful examples <a href="http://collection.britishmuseum.org/sparql">here</a>.</p>
 
       </section>
@@ -129,7 +123,7 @@ LIMIT 100
 <div class="footer-container">
   <footer class="wrapper">
     <ul>
-      <li>&copy; 2018 <a href="http://michaelnet.biz/">Michael E. Nelson</a></li>
+      <li>&copy; 2019 <a href="http://michaelnet.biz/">Michael E. Nelson</a></li>
       <li><a href="mailto:michael.nelson@fulbrightmail.org">Email</a></li>
       <li><a href="//linkedin.com/in/michaelnetbiz">LinkedIn</a></li>
       <li><a href="//facebook.com/nelson.michael.eric">Facebook</a></li>

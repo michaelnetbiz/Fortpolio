@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Michael E. Nelson</title>
@@ -17,7 +17,7 @@
       <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://michaelnet.biz/project/arcgis-api-sandbox/</guid>
-      <description> Problem Solution [Source and Documentation] [Demo] Other Assets </description>
+      <description>A small project used to familiarize myself with the ArcGIS JavaScript APIs in the context of React.js development.</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://michaelnet.biz/project/exploring-cultural-heritage-documentation-with-glambulator/</guid>
-      <description> Problem Solution [Source and Documentation] [Demo] Other Assets </description>
+      <description>Application for exploring the CIDOC Conceptual Reference Model (CRM) and phenomena annotated by it at the instance level. Designed and developed during residency as a CHI Graduate Fellow with Michigan State&#39;s Cultural Heritage Informatics Initiative</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       <guid>http://michaelnet.biz/post/the-glambu-launch-post/</guid>
       <description>Question: What is the sum of the galleries, libraries, archives, and museums industry category‘s acronym (GLAM) and the archaic word ambulator (Noun, “One that walks about” - Lewis &amp;amp; Short, 1879)?
 Answer: Glambulator, the name of my CHI project. Glambulator has launched, and it’s available at glambulator.matrix.msu.edu/.
-  Entity Graph Tab   Glambulator is about exploring the CIDOC Conceptual Reference Model (CIDOC-CRM) and phenomena that have been annotated by it.</description>
+Glambulator is about exploring the CIDOC Conceptual Reference Model (CIDOC-CRM) and phenomena that have been annotated by it. It’s inspired by other applications that afford interaction with RDF resources at the instance level (e.</description>
     </item>
     
     <item>
@@ -119,7 +119,7 @@ I’m interested in exploring the operations through which an object comes to be
       <pubDate>Mon, 19 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://michaelnet.biz/project/the-future-of-data-related-publication/</guid>
-      <description></description>
+      <description>Gathering requirements for a system to support improved bibliography comprehensiveness, usability, and ingestion processes at the Inter-university Consortium for Political and Social Research’s (ICPSR)</description>
     </item>
     
     <item>
@@ -128,7 +128,7 @@ I’m interested in exploring the operations through which an object comes to be
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://michaelnet.biz/project/observing-consumer-behavior-on-instagram/</guid>
-      <description></description>
+      <description>A Universal Windows Platform (UWP) tablet application to simulate the Instagram user experience.</description>
     </item>
     
   </channel>

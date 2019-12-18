@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gis on Michael E. Nelson</title>
+    <title>gis on Michael E. Nelson</title>
     <link>http://michaelnet.biz/tags/gis/</link>
-    <description>Recent content in Gis on Michael E. Nelson</description>
+    <description>Recent content in gis on Michael E. Nelson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Jul 2017 00:00:00 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>http://michaelnet.biz/project/arcgis-api-sandbox/</guid>
-      <description> Problem Solution [Source and Documentation] [Demo] Other Assets </description>
+      <description>A small project used to familiarize myself with the ArcGIS JavaScript APIs in the context of React.js development.</description>
     </item>
     
   </channel>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web 3 0 on Michael E. Nelson</title>
+    <title>web-3-0 on Michael E. Nelson</title>
     <link>http://michaelnet.biz/tags/web-3-0/</link>
-    <description>Recent content in Web 3 0 on Michael E. Nelson</description>
+    <description>Recent content in web-3-0 on Michael E. Nelson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 May 2017 00:00:00 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://michaelnet.biz/project/exploring-cultural-heritage-documentation-with-glambulator/</guid>
-      <description> Problem Solution [Source and Documentation] [Demo] Other Assets </description>
+      <description>Application for exploring the CIDOC Conceptual Reference Model (CRM) and phenomena annotated by it at the instance level. Designed and developed during residency as a CHI Graduate Fellow with Michigan State&#39;s Cultural Heritage Informatics Initiative</description>
     </item>
     
     <item>

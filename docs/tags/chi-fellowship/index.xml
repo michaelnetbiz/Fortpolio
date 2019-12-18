@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chi Fellowship on Michael E. Nelson</title>
+    <title>chi-fellowship on Michael E. Nelson</title>
     <link>http://michaelnet.biz/tags/chi-fellowship/</link>
-    <description>Recent content in Chi Fellowship on Michael E. Nelson</description>
+    <description>Recent content in chi-fellowship on Michael E. Nelson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 May 2017 00:00:00 +0000</lastBuildDate>
@@ -19,7 +19,7 @@
       <guid>http://michaelnet.biz/post/the-glambu-launch-post/</guid>
       <description>Question: What is the sum of the galleries, libraries, archives, and museums industry category‘s acronym (GLAM) and the archaic word ambulator (Noun, “One that walks about” - Lewis &amp;amp; Short, 1879)?
 Answer: Glambulator, the name of my CHI project. Glambulator has launched, and it’s available at glambulator.matrix.msu.edu/.
-  Entity Graph Tab   Glambulator is about exploring the CIDOC Conceptual Reference Model (CIDOC-CRM) and phenomena that have been annotated by it.</description>
+Glambulator is about exploring the CIDOC Conceptual Reference Model (CIDOC-CRM) and phenomena that have been annotated by it. It’s inspired by other applications that afford interaction with RDF resources at the instance level (e.</description>
     </item>
     
     <item>
