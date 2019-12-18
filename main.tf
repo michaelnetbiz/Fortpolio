@@ -52,6 +52,7 @@ resource "aws_route53_record" "cname" {
   zone_id = aws_route53_zone.main.id
   name    = "www"
   type    = "CNAME"
+  ttl = 300
   records        = [var.domain_name]
 }
 
