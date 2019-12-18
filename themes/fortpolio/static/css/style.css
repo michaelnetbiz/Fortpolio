@@ -1,19 +1,23 @@
 @font-face {
   font-family: "Gotham Light";
-  src: url(http://michaelnet.biz/fonts/gothams/Gotham-Light.otf) format('opentype');
+  src: url('/fonts/gothams/Gotham-Light.otf') format('opentype');
 }
+
 @font-face {
   font-family: "Gotham Medium";
-  src: url(http://michaelnet.biz/fonts/gothams/Gotham-Medium.otf) format('opentype');
+  src: url('/fonts/gothams/Gotham-Medium.otf') format('opentype');
 }
+
 @font-face {
   font-family: "Gotham Bold";
-  src: url(http://michaelnet.biz/fonts/gothams/Gotham-Bold.otf) format('opentype');
+  src: url('/fonts/gothams/Gotham-Bold.otf') format('opentype');
 }
+
 @font-face {
   font-family: "PT Serif";
-  src: url(http://michaelnet.biz/fonts/ptserif/pt-serif-v8-latin-regular.woff) format('woff');
+  src: url('/fonts/ptserif/pt-serif-v8-latin-regular.woff') format('woff');
 }
+
 /* line 1, ../../styles/elements/_article.scss */
 article section {
   font-family: 'PT Serif', Georgia, serif;
